@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75EEB16D2085836A0015CCE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EEB16C2085836A0015CCE6 /* AppDelegate.swift */; };
+		75EEB16F2085836A0015CCE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EEB16E2085836A0015CCE6 /* ViewController.swift */; };
+		75EEB1722085836A0015CCE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75EEB1702085836A0015CCE6 /* Main.storyboard */; };
+		75EEB1742085836C0015CCE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75EEB1732085836C0015CCE6 /* Assets.xcassets */; };
+		75EEB1772085836C0015CCE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75EEB1752085836C0015CCE6 /* LaunchScreen.storyboard */; };
+		75EEB1822085836C0015CCE6 /* NYU_Fitness_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EEB1812085836C0015CCE6 /* NYU_Fitness_ChallengeTests.swift */; };
+		75EEB18D2085836C0015CCE6 /* NYU_Fitness_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EEB18C2085836C0015CCE6 /* NYU_Fitness_ChallengeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75EEB17E2085836C0015CCE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75EEB161208583690015CCE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75EEB168208583690015CCE6;
+			remoteInfo = "NYU Fitness Challenge";
+		};
+		75EEB1892085836C0015CCE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75EEB161208583690015CCE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75EEB168208583690015CCE6;
+			remoteInfo = "NYU Fitness Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75EEB169208583690015CCE6 /* NYU Fitness Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NYU Fitness Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75EEB16C2085836A0015CCE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75EEB16E2085836A0015CCE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75EEB1712085836A0015CCE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75EEB1732085836C0015CCE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75EEB1762085836C0015CCE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75EEB1782085836C0015CCE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75EEB17D2085836C0015CCE6 /* NYU Fitness ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NYU Fitness ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75EEB1812085836C0015CCE6 /* NYU_Fitness_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYU_Fitness_ChallengeTests.swift; sourceTree = "<group>"; };
+		75EEB1832085836C0015CCE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75EEB1882085836C0015CCE6 /* NYU Fitness ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NYU Fitness ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75EEB18C2085836C0015CCE6 /* NYU_Fitness_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYU_Fitness_ChallengeUITests.swift; sourceTree = "<group>"; };
+		75EEB18E2085836C0015CCE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75EEB166208583690015CCE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75EEB17A2085836C0015CCE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75EEB1852085836C0015CCE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75EEB160208583690015CCE6 = {
+			isa = PBXGroup;
+			children = (
+				75EEB16B208583690015CCE6 /* NYU Fitness Challenge */,
+				75EEB1802085836C0015CCE6 /* NYU Fitness ChallengeTests */,
+				75EEB18B2085836C0015CCE6 /* NYU Fitness ChallengeUITests */,
+				75EEB16A208583690015CCE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75EEB16A208583690015CCE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75EEB169208583690015CCE6 /* NYU Fitness Challenge.app */,
+				75EEB17D2085836C0015CCE6 /* NYU Fitness ChallengeTests.xctest */,
+				75EEB1882085836C0015CCE6 /* NYU Fitness ChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75EEB16B208583690015CCE6 /* NYU Fitness Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				75EEB16C2085836A0015CCE6 /* AppDelegate.swift */,
+				75EEB16E2085836A0015CCE6 /* ViewController.swift */,
+				75EEB1702085836A0015CCE6 /* Main.storyboard */,
+				75EEB1732085836C0015CCE6 /* Assets.xcassets */,
+				75EEB1752085836C0015CCE6 /* LaunchScreen.storyboard */,
+				75EEB1782085836C0015CCE6 /* Info.plist */,
+			);
+			path = "NYU Fitness Challenge";
+			sourceTree = "<group>";
+		};
+		75EEB1802085836C0015CCE6 /* NYU Fitness ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				75EEB1812085836C0015CCE6 /* NYU_Fitness_ChallengeTests.swift */,
+				75EEB1832085836C0015CCE6 /* Info.plist */,
+			);
+			path = "NYU Fitness ChallengeTests";
+			sourceTree = "<group>";
+		};
+		75EEB18B2085836C0015CCE6 /* NYU Fitness ChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75EEB18C2085836C0015CCE6 /* NYU_Fitness_ChallengeUITests.swift */,
+				75EEB18E2085836C0015CCE6 /* Info.plist */,
+			);
+			path = "NYU Fitness ChallengeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75EEB168208583690015CCE6 /* NYU Fitness Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75EEB1912085836C0015CCE6 /* Build configuration list for PBXNativeTarget "NYU Fitness Challenge" */;
+			buildPhases = (
+				75EEB165208583690015CCE6 /* Sources */,
+				75EEB166208583690015CCE6 /* Frameworks */,
+				75EEB167208583690015CCE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NYU Fitness Challenge";
+			productName = "NYU Fitness Challenge";
+			productReference = 75EEB169208583690015CCE6 /* NYU Fitness Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75EEB17C2085836C0015CCE6 /* NYU Fitness ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75EEB1942085836C0015CCE6 /* Build configuration list for PBXNativeTarget "NYU Fitness ChallengeTests" */;
+			buildPhases = (
+				75EEB1792085836C0015CCE6 /* Sources */,
+				75EEB17A2085836C0015CCE6 /* Frameworks */,
+				75EEB17B2085836C0015CCE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75EEB17F2085836C0015CCE6 /* PBXTargetDependency */,
+			);
+			name = "NYU Fitness ChallengeTests";
+			productName = "NYU Fitness ChallengeTests";
+			productReference = 75EEB17D2085836C0015CCE6 /* NYU Fitness ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75EEB1872085836C0015CCE6 /* NYU Fitness ChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75EEB1972085836C0015CCE6 /* Build configuration list for PBXNativeTarget "NYU Fitness ChallengeUITests" */;
+			buildPhases = (
+				75EEB1842085836C0015CCE6 /* Sources */,
+				75EEB1852085836C0015CCE6 /* Frameworks */,
+				75EEB1862085836C0015CCE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75EEB18A2085836C0015CCE6 /* PBXTargetDependency */,
+			);
+			name = "NYU Fitness ChallengeUITests";
+			productName = "NYU Fitness ChallengeUITests";
+			productReference = 75EEB1882085836C0015CCE6 /* NYU Fitness ChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75EEB161208583690015CCE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "William Uchegbu";
+				TargetAttributes = {
+					75EEB168208583690015CCE6 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					75EEB17C2085836C0015CCE6 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 75EEB168208583690015CCE6;
+					};
+					75EEB1872085836C0015CCE6 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 75EEB168208583690015CCE6;
+					};
+				};
+			};
+			buildConfigurationList = 75EEB164208583690015CCE6 /* Build configuration list for PBXProject "NYU Fitness Challenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75EEB160208583690015CCE6;
+			productRefGroup = 75EEB16A208583690015CCE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75EEB168208583690015CCE6 /* NYU Fitness Challenge */,
+				75EEB17C2085836C0015CCE6 /* NYU Fitness ChallengeTests */,
+				75EEB1872085836C0015CCE6 /* NYU Fitness ChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75EEB167208583690015CCE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75EEB1772085836C0015CCE6 /* LaunchScreen.storyboard in Resources */,
+				75EEB1742085836C0015CCE6 /* Assets.xcassets in Resources */,
+				75EEB1722085836A0015CCE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75EEB17B2085836C0015CCE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75EEB1862085836C0015CCE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75EEB165208583690015CCE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75EEB16F2085836A0015CCE6 /* ViewController.swift in Sources */,
+				75EEB16D2085836A0015CCE6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75EEB1792085836C0015CCE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75EEB1822085836C0015CCE6 /* NYU_Fitness_ChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75EEB1842085836C0015CCE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75EEB18D2085836C0015CCE6 /* NYU_Fitness_ChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75EEB17F2085836C0015CCE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75EEB168208583690015CCE6 /* NYU Fitness Challenge */;
+			targetProxy = 75EEB17E2085836C0015CCE6 /* PBXContainerItemProxy */;
+		};
+		75EEB18A2085836C0015CCE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75EEB168208583690015CCE6 /* NYU Fitness Challenge */;
+			targetProxy = 75EEB1892085836C0015CCE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75EEB1702085836A0015CCE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75EEB1712085836A0015CCE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75EEB1752085836C0015CCE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75EEB1762085836C0015CCE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75EEB18F2085836C0015CCE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75EEB1902085836C0015CCE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75EEB1922085836C0015CCE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NYU Fitness Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NYU.NYU-Fitness-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75EEB1932085836C0015CCE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NYU Fitness Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NYU.NYU-Fitness-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75EEB1952085836C0015CCE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NYU Fitness ChallengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NYU.NYU-Fitness-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYU Fitness Challenge.app/NYU Fitness Challenge";
+			};
+			name = Debug;
+		};
+		75EEB1962085836C0015CCE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NYU Fitness ChallengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NYU.NYU-Fitness-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYU Fitness Challenge.app/NYU Fitness Challenge";
+			};
+			name = Release;
+		};
+		75EEB1982085836C0015CCE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NYU Fitness ChallengeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NYU.NYU-Fitness-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NYU Fitness Challenge";
+			};
+			name = Debug;
+		};
+		75EEB1992085836C0015CCE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NYU Fitness ChallengeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NYU.NYU-Fitness-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NYU Fitness Challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75EEB164208583690015CCE6 /* Build configuration list for PBXProject "NYU Fitness Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75EEB18F2085836C0015CCE6 /* Debug */,
+				75EEB1902085836C0015CCE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75EEB1912085836C0015CCE6 /* Build configuration list for PBXNativeTarget "NYU Fitness Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75EEB1922085836C0015CCE6 /* Debug */,
+				75EEB1932085836C0015CCE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75EEB1942085836C0015CCE6 /* Build configuration list for PBXNativeTarget "NYU Fitness ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75EEB1952085836C0015CCE6 /* Debug */,
+				75EEB1962085836C0015CCE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75EEB1972085836C0015CCE6 /* Build configuration list for PBXNativeTarget "NYU Fitness ChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75EEB1982085836C0015CCE6 /* Debug */,
+				75EEB1992085836C0015CCE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75EEB161208583690015CCE6 /* Project object */;
+}

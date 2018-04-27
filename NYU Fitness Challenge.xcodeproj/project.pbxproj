@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5757B580ADEF392E29C7E911 /* Pods_NYU_Fitness_ChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10225BE6387D73F12352084F /* Pods_NYU_Fitness_ChallengeTests.framework */; };
+		75A44C79208EE27900B81F1F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75A44C78208EE27900B81F1F /* GoogleService-Info.plist */; };
+		75D81401209146BA005162E8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D81400209146BA005162E8 /* LoginViewController.swift */; };
 		75EEB16D2085836A0015CCE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EEB16C2085836A0015CCE6 /* AppDelegate.swift */; };
 		75EEB16F2085836A0015CCE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EEB16E2085836A0015CCE6 /* ViewController.swift */; };
 		75EEB1722085836A0015CCE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75EEB1702085836A0015CCE6 /* Main.storyboard */; };
@@ -14,6 +17,12 @@
 		75EEB1772085836C0015CCE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75EEB1752085836C0015CCE6 /* LaunchScreen.storyboard */; };
 		75EEB1822085836C0015CCE6 /* NYU_Fitness_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EEB1812085836C0015CCE6 /* NYU_Fitness_ChallengeTests.swift */; };
 		75EEB18D2085836C0015CCE6 /* NYU_Fitness_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EEB18C2085836C0015CCE6 /* NYU_Fitness_ChallengeUITests.swift */; };
+		75EEB19B20858DDC0015CCE6 /* NYU_wordmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 75EEB19A20858DDC0015CCE6 /* NYU_wordmark.png */; };
+		75EEB1A0208631320015CCE6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EEB19F208631320015CCE6 /* ProfileViewController.swift */; };
+		75EEB1A4208654590015CCE6 /* eventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EEB1A3208654590015CCE6 /* eventCell.swift */; };
+		75EEB1A62086E2D10015CCE6 /* LeaderboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EEB1A52086E2D10015CCE6 /* LeaderboardTableViewCell.swift */; };
+		7C4E5955CCC89A51F00E850A /* Pods_NYU_Fitness_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF168A1DDCCC2758CEC39C69 /* Pods_NYU_Fitness_Challenge.framework */; };
+		86B731B76626405F6D2C55FE /* Pods_NYU_Fitness_ChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D0FEC701C881E48A8E2632 /* Pods_NYU_Fitness_ChallengeUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A6EDCD5609A0A0C253BCC6E /* Pods-NYU Fitness Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYU Fitness Challenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NYU Fitness Challenge/Pods-NYU Fitness Challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		10225BE6387D73F12352084F /* Pods_NYU_Fitness_ChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYU_Fitness_ChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FD0A3D3C0231C3AB5C40E6B /* Pods-NYU Fitness Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYU Fitness Challenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-NYU Fitness Challenge/Pods-NYU Fitness Challenge.release.xcconfig"; sourceTree = "<group>"; };
+		34D0FEC701C881E48A8E2632 /* Pods_NYU_Fitness_ChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYU_Fitness_ChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A44C78208EE27900B81F1F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		75D81400209146BA005162E8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		75EEB169208583690015CCE6 /* NYU Fitness Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NYU Fitness Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75EEB16C2085836A0015CCE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75EEB16E2085836A0015CCE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,15 @@
 		75EEB1882085836C0015CCE6 /* NYU Fitness ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NYU Fitness ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75EEB18C2085836C0015CCE6 /* NYU_Fitness_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYU_Fitness_ChallengeUITests.swift; sourceTree = "<group>"; };
 		75EEB18E2085836C0015CCE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75EEB19A20858DDC0015CCE6 /* NYU_wordmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NYU_wordmark.png; sourceTree = "<group>"; };
+		75EEB19F208631320015CCE6 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		75EEB1A3208654590015CCE6 /* eventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventCell.swift; sourceTree = "<group>"; };
+		75EEB1A52086E2D10015CCE6 /* LeaderboardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardTableViewCell.swift; sourceTree = "<group>"; };
+		8407F4628A3D1A7B0BEEC393 /* Pods-NYU Fitness ChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYU Fitness ChallengeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NYU Fitness ChallengeUITests/Pods-NYU Fitness ChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8EA9F4A6342167B84BEE4345 /* Pods-NYU Fitness ChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYU Fitness ChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NYU Fitness ChallengeTests/Pods-NYU Fitness ChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C3A5A345CA8423954818293A /* Pods-NYU Fitness ChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYU Fitness ChallengeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NYU Fitness ChallengeTests/Pods-NYU Fitness ChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		DF168A1DDCCC2758CEC39C69 /* Pods_NYU_Fitness_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYU_Fitness_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE89C270C28A7B3CE2454F73 /* Pods-NYU Fitness ChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYU Fitness ChallengeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NYU Fitness ChallengeUITests/Pods-NYU Fitness ChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C4E5955CCC89A51F00E850A /* Pods_NYU_Fitness_Challenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5757B580ADEF392E29C7E911 /* Pods_NYU_Fitness_ChallengeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +94,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86B731B76626405F6D2C55FE /* Pods_NYU_Fitness_ChallengeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		702B698C2446EF81024C1641 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF168A1DDCCC2758CEC39C69 /* Pods_NYU_Fitness_Challenge.framework */,
+				10225BE6387D73F12352084F /* Pods_NYU_Fitness_ChallengeTests.framework */,
+				34D0FEC701C881E48A8E2632 /* Pods_NYU_Fitness_ChallengeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		75EEB160208583690015CCE6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +118,8 @@
 				75EEB1802085836C0015CCE6 /* NYU Fitness ChallengeTests */,
 				75EEB18B2085836C0015CCE6 /* NYU Fitness ChallengeUITests */,
 				75EEB16A208583690015CCE6 /* Products */,
+				A27D829814BFA4D527100925 /* Pods */,
+				702B698C2446EF81024C1641 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +138,15 @@
 			children = (
 				75EEB16C2085836A0015CCE6 /* AppDelegate.swift */,
 				75EEB16E2085836A0015CCE6 /* ViewController.swift */,
+				75EEB1A3208654590015CCE6 /* eventCell.swift */,
+				75EEB19F208631320015CCE6 /* ProfileViewController.swift */,
 				75EEB1702085836A0015CCE6 /* Main.storyboard */,
+				75D81400209146BA005162E8 /* LoginViewController.swift */,
+				75EEB1A52086E2D10015CCE6 /* LeaderboardTableViewCell.swift */,
+				75EEB19A20858DDC0015CCE6 /* NYU_wordmark.png */,
 				75EEB1732085836C0015CCE6 /* Assets.xcassets */,
 				75EEB1752085836C0015CCE6 /* LaunchScreen.storyboard */,
+				75A44C78208EE27900B81F1F /* GoogleService-Info.plist */,
 				75EEB1782085836C0015CCE6 /* Info.plist */,
 			);
 			path = "NYU Fitness Challenge";
@@ -125,6 +170,19 @@
 			path = "NYU Fitness ChallengeUITests";
 			sourceTree = "<group>";
 		};
+		A27D829814BFA4D527100925 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A6EDCD5609A0A0C253BCC6E /* Pods-NYU Fitness Challenge.debug.xcconfig */,
+				1FD0A3D3C0231C3AB5C40E6B /* Pods-NYU Fitness Challenge.release.xcconfig */,
+				8EA9F4A6342167B84BEE4345 /* Pods-NYU Fitness ChallengeTests.debug.xcconfig */,
+				C3A5A345CA8423954818293A /* Pods-NYU Fitness ChallengeTests.release.xcconfig */,
+				FE89C270C28A7B3CE2454F73 /* Pods-NYU Fitness ChallengeUITests.debug.xcconfig */,
+				8407F4628A3D1A7B0BEEC393 /* Pods-NYU Fitness ChallengeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75EEB1912085836C0015CCE6 /* Build configuration list for PBXNativeTarget "NYU Fitness Challenge" */;
 			buildPhases = (
+				758B4B824BB04A165628B6A7 /* [CP] Check Pods Manifest.lock */,
 				75EEB165208583690015CCE6 /* Sources */,
 				75EEB166208583690015CCE6 /* Frameworks */,
 				75EEB167208583690015CCE6 /* Resources */,
+				F505B3E65B1B84156BE99361 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,9 +209,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75EEB1942085836C0015CCE6 /* Build configuration list for PBXNativeTarget "NYU Fitness ChallengeTests" */;
 			buildPhases = (
+				A7E7BE0CC68BA1B67FF596F1 /* [CP] Check Pods Manifest.lock */,
 				75EEB1792085836C0015CCE6 /* Sources */,
 				75EEB17A2085836C0015CCE6 /* Frameworks */,
 				75EEB17B2085836C0015CCE6 /* Resources */,
+				A1575FDF570389230A473DF3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,6 +229,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75EEB1972085836C0015CCE6 /* Build configuration list for PBXNativeTarget "NYU Fitness ChallengeUITests" */;
 			buildPhases = (
+				EB9B74E032DE6965B1C31EB6 /* [CP] Check Pods Manifest.lock */,
 				75EEB1842085836C0015CCE6 /* Sources */,
 				75EEB1852085836C0015CCE6 /* Frameworks */,
 				75EEB1862085836C0015CCE6 /* Resources */,
@@ -230,6 +293,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				75EEB1772085836C0015CCE6 /* LaunchScreen.storyboard in Resources */,
+				75EEB19B20858DDC0015CCE6 /* NYU_wordmark.png in Resources */,
+				75A44C79208EE27900B81F1F /* GoogleService-Info.plist in Resources */,
 				75EEB1742085836C0015CCE6 /* Assets.xcassets in Resources */,
 				75EEB1722085836A0015CCE6 /* Main.storyboard in Resources */,
 			);
@@ -251,12 +316,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		758B4B824BB04A165628B6A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NYU Fitness Challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1575FDF570389230A473DF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NYU Fitness ChallengeTests/Pods-NYU Fitness ChallengeTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NYU Fitness ChallengeTests/Pods-NYU Fitness ChallengeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7E7BE0CC68BA1B67FF596F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NYU Fitness ChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB9B74E032DE6965B1C31EB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NYU Fitness ChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F505B3E65B1B84156BE99361 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NYU Fitness Challenge/Pods-NYU Fitness Challenge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NYU Fitness Challenge/Pods-NYU Fitness Challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		75EEB165208583690015CCE6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75D81401209146BA005162E8 /* LoginViewController.swift in Sources */,
+				75EEB1A4208654590015CCE6 /* eventCell.swift in Sources */,
+				75EEB1A62086E2D10015CCE6 /* LeaderboardTableViewCell.swift in Sources */,
 				75EEB16F2085836A0015CCE6 /* ViewController.swift in Sources */,
+				75EEB1A0208631320015CCE6 /* ProfileViewController.swift in Sources */,
 				75EEB16D2085836A0015CCE6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +598,7 @@
 		};
 		75EEB1922085836C0015CCE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A6EDCD5609A0A0C253BCC6E /* Pods-NYU Fitness Challenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +616,7 @@
 		};
 		75EEB1932085836C0015CCE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FD0A3D3C0231C3AB5C40E6B /* Pods-NYU Fitness Challenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -462,6 +634,7 @@
 		};
 		75EEB1952085836C0015CCE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EA9F4A6342167B84BEE4345 /* Pods-NYU Fitness ChallengeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +655,7 @@
 		};
 		75EEB1962085836C0015CCE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3A5A345CA8423954818293A /* Pods-NYU Fitness ChallengeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +676,7 @@
 		};
 		75EEB1982085836C0015CCE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE89C270C28A7B3CE2454F73 /* Pods-NYU Fitness ChallengeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +696,7 @@
 		};
 		75EEB1992085836C0015CCE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8407F4628A3D1A7B0BEEC393 /* Pods-NYU Fitness ChallengeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

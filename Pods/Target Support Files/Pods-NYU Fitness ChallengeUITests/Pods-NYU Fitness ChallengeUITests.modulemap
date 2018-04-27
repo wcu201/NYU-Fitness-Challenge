@@ -1,0 +1,6 @@
+framework module Pods_NYU_Fitness_ChallengeUITests {
+  umbrella header "Pods-NYU Fitness ChallengeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,7 +8,28 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+var data = ["John", "Sarah", "Michael", "Lucy"]
+var score = [23, 98, 75, 37]
+
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return data.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")as! LeaderboardTableViewCell
+        
+        cell.leaderboardName.text = data[indexPath.row]
+        cell.leaderboardScore.text = "\(score[indexPath.row])"
+        cell.leaderboardRank.text = "\(indexPath.row + 1)"
+        
+        return cell
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

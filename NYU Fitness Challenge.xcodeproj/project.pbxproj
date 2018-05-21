@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		543EA01620A949BB00AE553D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543EA01520A949BB00AE553D /* RegisterViewController.swift */; };
+		546B79372092DD0600AC0E7C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546B79362092DD0600AC0E7C /* HomeViewController.swift */; };
+		546B79392092EE9D00AC0E7C /* DescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546B79382092EE9D00AC0E7C /* DescriptionTableViewCell.swift */; };
+		546B793B2093EBF600AC0E7C /* Roboto in Resources */ = {isa = PBXBuildFile; fileRef = 546B793A2093EBF600AC0E7C /* Roboto */; };
+		54A5443820A38A58009C6928 /* PasswordResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A5443720A38A57009C6928 /* PasswordResetViewController.swift */; };
 		5757B580ADEF392E29C7E911 /* Pods_NYU_Fitness_ChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10225BE6387D73F12352084F /* Pods_NYU_Fitness_ChallengeTests.framework */; };
 		75A44C79208EE27900B81F1F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75A44C78208EE27900B81F1F /* GoogleService-Info.plist */; };
 		75D81401209146BA005162E8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D81400209146BA005162E8 /* LoginViewController.swift */; };
@@ -47,6 +52,11 @@
 		10225BE6387D73F12352084F /* Pods_NYU_Fitness_ChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYU_Fitness_ChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD0A3D3C0231C3AB5C40E6B /* Pods-NYU Fitness Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYU Fitness Challenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-NYU Fitness Challenge/Pods-NYU Fitness Challenge.release.xcconfig"; sourceTree = "<group>"; };
 		34D0FEC701C881E48A8E2632 /* Pods_NYU_Fitness_ChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYU_Fitness_ChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		543EA01520A949BB00AE553D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		546B79362092DD0600AC0E7C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		546B79382092EE9D00AC0E7C /* DescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		546B793A2093EBF600AC0E7C /* Roboto */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Roboto; path = ../../../../Downloads/Roboto; sourceTree = "<group>"; };
+		54A5443720A38A57009C6928 /* PasswordResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PasswordResetViewController.swift; path = "/Users/williamuchegbu/Documents/GitHub/NYU-Fitness-Challenge/NYU Fitness Challenge/Onboarding/PasswordResetViewController.swift"; sourceTree = "<absolute>"; };
 		75A44C78208EE27900B81F1F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		75D81400209146BA005162E8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		75EEB169208583690015CCE6 /* NYU Fitness Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NYU Fitness Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +111,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54A5443620A383BF009C6928 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				75D81400209146BA005162E8 /* LoginViewController.swift */,
+				54A5443720A38A57009C6928 /* PasswordResetViewController.swift */,
+				543EA01520A949BB00AE553D /* RegisterViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		702B698C2446EF81024C1641 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,12 +156,15 @@
 		75EEB16B208583690015CCE6 /* NYU Fitness Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				54A5443620A383BF009C6928 /* Onboarding */,
 				75EEB16C2085836A0015CCE6 /* AppDelegate.swift */,
 				75EEB16E2085836A0015CCE6 /* ViewController.swift */,
+				546B79382092EE9D00AC0E7C /* DescriptionTableViewCell.swift */,
 				75EEB1A3208654590015CCE6 /* eventCell.swift */,
 				75EEB19F208631320015CCE6 /* ProfileViewController.swift */,
 				75EEB1702085836A0015CCE6 /* Main.storyboard */,
-				75D81400209146BA005162E8 /* LoginViewController.swift */,
+				546B793A2093EBF600AC0E7C /* Roboto */,
+				546B79362092DD0600AC0E7C /* HomeViewController.swift */,
 				75EEB1A52086E2D10015CCE6 /* LeaderboardTableViewCell.swift */,
 				75EEB19A20858DDC0015CCE6 /* NYU_wordmark.png */,
 				75EEB1732085836C0015CCE6 /* Assets.xcassets */,
@@ -297,6 +320,7 @@
 				75A44C79208EE27900B81F1F /* GoogleService-Info.plist in Resources */,
 				75EEB1742085836C0015CCE6 /* Assets.xcassets in Resources */,
 				75EEB1722085836A0015CCE6 /* Main.storyboard in Resources */,
+				546B793B2093EBF600AC0E7C /* Roboto in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,7 +366,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-NYU Fitness ChallengeTests/Pods-NYU Fitness ChallengeTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac-Defines-NSData+zlib/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -400,13 +424,17 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-NYU Fitness Challenge/Pods-NYU Fitness Challenge-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac-f0850809/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/RevealingSplashView/RevealingSplashView.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealingSplashView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -422,11 +450,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				546B79392092EE9D00AC0E7C /* DescriptionTableViewCell.swift in Sources */,
+				543EA01620A949BB00AE553D /* RegisterViewController.swift in Sources */,
+				54A5443820A38A58009C6928 /* PasswordResetViewController.swift in Sources */,
 				75D81401209146BA005162E8 /* LoginViewController.swift in Sources */,
 				75EEB1A4208654590015CCE6 /* eventCell.swift in Sources */,
 				75EEB1A62086E2D10015CCE6 /* LeaderboardTableViewCell.swift in Sources */,
 				75EEB16F2085836A0015CCE6 /* ViewController.swift in Sources */,
 				75EEB1A0208631320015CCE6 /* ProfileViewController.swift in Sources */,
+				546B79372092DD0600AC0E7C /* HomeViewController.swift in Sources */,
 				75EEB16D2085836A0015CCE6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -602,6 +634,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6343M8D847;
 				INFOPLIST_FILE = "NYU Fitness Challenge/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -620,6 +653,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6343M8D847;
 				INFOPLIST_FILE = "NYU Fitness Challenge/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

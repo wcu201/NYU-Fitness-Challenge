@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 var data = ["John", "Sarah", "Michael", "Lucy"]
 var score = [23, 98, 75, 37]
 

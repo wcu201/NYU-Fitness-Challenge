@@ -52,7 +52,9 @@ class ProfileViewController: UIViewController, UITableViewDataSource, UITableVie
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         ref = Database.database().reference()
+        //print (UserMetadata.)
     
         databaseHandle = ref?.child("users").child("user_1").observe(.value, with: { (snapshot) in
             let fname = snapshot.childSnapshot(forPath: "firstName").value as? String

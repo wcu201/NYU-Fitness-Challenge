@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,18 +19,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NYU_wordmark.png" translatesAutoresizingMaskIntoConstraints="NO" id="KkG-it-HCE">
-                                <rect key="frame" x="52.5" y="298" width="270" height="91"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="beautiful-color-gradients-backgrounds-028-plum-plate" translatesAutoresizingMaskIntoConstraints="NO" id="Wge-9i-G74">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ChallengeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="R91-zu-8bS">
+                                <rect key="frame" x="27" y="281" width="320" height="125"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="270" id="Xh9-8s-kYX"/>
-                                    <constraint firstAttribute="width" secondItem="KkG-it-HCE" secondAttribute="height" multiplier="293:99" id="fP2-5G-Oew"/>
+                                    <constraint firstAttribute="height" constant="125" id="cbg-h9-1ig"/>
+                                    <constraint firstAttribute="width" constant="320" id="quG-s5-3HI"/>
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="KkG-it-HCE" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="G3C-pr-SbA"/>
-                            <constraint firstItem="KkG-it-HCE" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ZnT-GA-RRz"/>
+                            <constraint firstItem="Wge-9i-G74" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="MGD-rA-fq8"/>
+                            <constraint firstItem="Wge-9i-G74" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="MZC-SZ-pJD"/>
+                            <constraint firstItem="R91-zu-8bS" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="STH-7j-all"/>
+                            <constraint firstItem="Wge-9i-G74" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="2" id="eAP-15-XjL"/>
+                            <constraint firstItem="R91-zu-8bS" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="mDM-Yp-Y4U"/>
+                            <constraint firstItem="Wge-9i-G74" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="xhj-L8-GrL"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -41,6 +48,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="NYU_wordmark.png" width="586" height="198"/>
+        <image name="ChallengeLogo" width="1096" height="433"/>
+        <image name="beautiful-color-gradients-backgrounds-028-plum-plate" width="600" height="500"/>
     </resources>
 </document>

@@ -7,14 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		543EA01620A949BB00AE553D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543EA01520A949BB00AE553D /* RegisterViewController.swift */; };
+		541A7FF020F04C08009905FC /* TrainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541A7FEF20F04C08009905FC /* TrainTableViewCell.swift */; };
+		541A7FF220F0FFB6009905FC /* InstructionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541A7FF120F0FFB6009905FC /* InstructionsTableViewCell.swift */; };
+		5425E25120D1D72B00F69401 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5425E25020D1D72B00F69401 /* LoginVC.swift */; };
+		5431628C20C46210002A993D /* trueno in Resources */ = {isa = PBXBuildFile; fileRef = 5431628B20C46210002A993D /* trueno */; };
+		5434770D212BA30400D3F9F7 /* AddAttemptsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5434770C212BA30400D3F9F7 /* AddAttemptsViewController.swift */; };
+		5434770F212BA5AF00D3F9F7 /* StationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5434770E212BA5AF00D3F9F7 /* StationCollectionViewCell.swift */; };
+		5445FEBB20E1A19D0032F913 /* InfoStationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5445FEBA20E1A19D0032F913 /* InfoStationsVC.swift */; };
+		5466326A20F1BB10009A7848 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5466326920F1BB10009A7848 /* SettingsViewController.swift */; };
+		5466326C20F24BBE009A7848 /* OverallScoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5466326B20F24BBE009A7848 /* OverallScoreTableViewCell.swift */; };
+		5466327820F42CF5009A7848 /* AttemptVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5466327720F42CF5009A7848 /* AttemptVC.swift */; };
+		5466327A20F43382009A7848 /* attemptCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5466327920F43382009A7848 /* attemptCell.swift */; };
+		5466327C20F435FE009A7848 /* overallAttemptCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5466327B20F435FE009A7848 /* overallAttemptCell.swift */; };
+		5466327E20F57AB9009A7848 /* Attempt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5466327D20F57AB9009A7848 /* Attempt.swift */; };
+		5466328020F5C82B009A7848 /* profileAttemptCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5466327F20F5C82B009A7848 /* profileAttemptCell.swift */; };
 		546B79372092DD0600AC0E7C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546B79362092DD0600AC0E7C /* HomeViewController.swift */; };
 		546B79392092EE9D00AC0E7C /* DescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546B79382092EE9D00AC0E7C /* DescriptionTableViewCell.swift */; };
-		546B793B2093EBF600AC0E7C /* Roboto in Resources */ = {isa = PBXBuildFile; fileRef = 546B793A2093EBF600AC0E7C /* Roboto */; };
-		54A5443820A38A58009C6928 /* PasswordResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A5443720A38A57009C6928 /* PasswordResetViewController.swift */; };
+		546F280720F7F0A20037DB2C /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546F280620F7F0A20037DB2C /* LoadingViewController.swift */; };
+		546F280920F7F4690037DB2C /* ScoringFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546F280820F7F4690037DB2C /* ScoringFunctions.swift */; };
+		546F281020F8786C0037DB2C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 546F280F20F8786C0037DB2C /* AudioToolbox.framework */; };
+		546F281220F87F000037DB2C /* challengeVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 546F281120F87EFF0037DB2C /* challengeVideo.mp4 */; };
+		547A59E520DB0C3200376076 /* ProVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547A59E420DB0C3200376076 /* ProVC.swift */; };
+		547A59E720DB1D5D00376076 /* NUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547A59E620DB1D5D00376076 /* NUser.swift */; };
+		547A59E920DB2C3800376076 /* DictionaryRep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547A59E820DB2C3800376076 /* DictionaryRep.swift */; };
+		548CD791211151DC00CA5998 /* Roboto in Resources */ = {isa = PBXBuildFile; fileRef = 548CD790211151DB00CA5998 /* Roboto */; };
+		548CD7952112378200CA5998 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 548CD7942112378200CA5998 /* GoogleService-Info.plist */; };
+		548FFCF020B907CC00BD0863 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548FFCEF20B907CC00BD0863 /* LaunchViewController.swift */; };
+		548FFCFA20B98DD100BD0863 /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548FFCF920B98DD100BD0863 /* SideMenuTableViewController.swift */; };
+		54B17ABB20EDD8CD00B0F7EE /* EmailPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B17ABA20EDD8CD00B0F7EE /* EmailPasswordVC.swift */; };
+		54B17ABD20EDD93A00B0F7EE /* NameGenderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B17ABC20EDD93A00B0F7EE /* NameGenderVC.swift */; };
+		54B17ABF20EDD94F00B0F7EE /* ProfilePicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B17ABE20EDD94F00B0F7EE /* ProfilePicVC.swift */; };
+		54CD9DCB20DB6C2E0095F387 /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CD9DCA20DB6C2E0095F387 /* Challenge.swift */; };
+		54CD9DCD20DBD7C00095F387 /* LeadersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CD9DCC20DBD7C00095F387 /* LeadersVC.swift */; };
+		54CD9DCF20DBDB490095F387 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CD9DCE20DBDB490095F387 /* Events.swift */; };
+		54CD9DD120DBDCE90095F387 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CD9DD020DBDCE90095F387 /* Event.swift */; };
+		54CD9DD320DC6DA30095F387 /* LeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CD9DD220DC6DA30095F387 /* LeaderTableViewCell.swift */; };
+		54DA5197210FB92F004D1531 /* burpees.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 54DA5196210FB815004D1531 /* burpees.mp4 */; };
+		54DA51A1210FBAEE004D1531 /* bike.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 54DA5199210FBA64004D1531 /* bike.mp4 */; };
+		54DA51A2210FBAF6004D1531 /* freethrow.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 54DA519A210FBA81004D1531 /* freethrow.mp4 */; };
+		54DA51A3210FBAFA004D1531 /* plank.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 54DA51A0210FBABD004D1531 /* plank.mp4 */; };
+		54DA51A4210FBAFF004D1531 /* pushups.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 54DA519F210FBAB3004D1531 /* pushups.mp4 */; };
+		54DA51A5210FBB04004D1531 /* rope machine.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 54DA519C210FBA94004D1531 /* rope machine.mp4 */; };
+		54DA51A6210FBB0C004D1531 /* row machine.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 54DA519D210FBAA0004D1531 /* row machine.mp4 */; };
+		54DA51A7210FBB11004D1531 /* shuttle run.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 54DA519B210FBA8C004D1531 /* shuttle run.mp4 */; };
+		54DA51A8210FBB17004D1531 /* squats.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 54DA519E210FBAAB004D1531 /* squats.mp4 */; };
+		54ED74F921022F6800326880 /* GoogleAuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED74F821022F6800326880 /* GoogleAuthVC.swift */; };
+		54F2F17A20C40CF3002FCBE5 /* montserrat in Resources */ = {isa = PBXBuildFile; fileRef = 54F2F17920C40CF3002FCBE5 /* montserrat */; };
+		54F8A47520DE86DB00CE0D53 /* RegVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F8A47420DE86DB00CE0D53 /* RegVC.swift */; };
+		54F8A47720DEF8BC00CE0D53 /* StationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F8A47620DEF8BC00CE0D53 /* StationsVC.swift */; };
+		54F8A47920DEFABE00CE0D53 /* StationDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F8A47820DEFABE00CE0D53 /* StationDetailsVC.swift */; };
+		54F8A47B20DEFEE300CE0D53 /* muscleGroupsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F8A47A20DEFEE300CE0D53 /* muscleGroupsTableViewCell.swift */; };
 		5757B580ADEF392E29C7E911 /* Pods_NYU_Fitness_ChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10225BE6387D73F12352084F /* Pods_NYU_Fitness_ChallengeTests.framework */; };
-		75A44C79208EE27900B81F1F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75A44C78208EE27900B81F1F /* GoogleService-Info.plist */; };
-		75D81401209146BA005162E8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D81400209146BA005162E8 /* LoginViewController.swift */; };
 		75EEB16D2085836A0015CCE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EEB16C2085836A0015CCE6 /* AppDelegate.swift */; };
 		75EEB16F2085836A0015CCE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EEB16E2085836A0015CCE6 /* ViewController.swift */; };
 		75EEB1722085836A0015CCE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75EEB1702085836A0015CCE6 /* Main.storyboard */; };
@@ -23,7 +66,6 @@
 		75EEB1822085836C0015CCE6 /* NYU_Fitness_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EEB1812085836C0015CCE6 /* NYU_Fitness_ChallengeTests.swift */; };
 		75EEB18D2085836C0015CCE6 /* NYU_Fitness_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EEB18C2085836C0015CCE6 /* NYU_Fitness_ChallengeUITests.swift */; };
 		75EEB19B20858DDC0015CCE6 /* NYU_wordmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 75EEB19A20858DDC0015CCE6 /* NYU_wordmark.png */; };
-		75EEB1A0208631320015CCE6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EEB19F208631320015CCE6 /* ProfileViewController.swift */; };
 		75EEB1A4208654590015CCE6 /* eventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EEB1A3208654590015CCE6 /* eventCell.swift */; };
 		75EEB1A62086E2D10015CCE6 /* LeaderboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EEB1A52086E2D10015CCE6 /* LeaderboardTableViewCell.swift */; };
 		7C4E5955CCC89A51F00E850A /* Pods_NYU_Fitness_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF168A1DDCCC2758CEC39C69 /* Pods_NYU_Fitness_Challenge.framework */; };
@@ -52,13 +94,58 @@
 		10225BE6387D73F12352084F /* Pods_NYU_Fitness_ChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYU_Fitness_ChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD0A3D3C0231C3AB5C40E6B /* Pods-NYU Fitness Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYU Fitness Challenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-NYU Fitness Challenge/Pods-NYU Fitness Challenge.release.xcconfig"; sourceTree = "<group>"; };
 		34D0FEC701C881E48A8E2632 /* Pods_NYU_Fitness_ChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYU_Fitness_ChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		543EA01520A949BB00AE553D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		541A7FEF20F04C08009905FC /* TrainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainTableViewCell.swift; sourceTree = "<group>"; };
+		541A7FF120F0FFB6009905FC /* InstructionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsTableViewCell.swift; sourceTree = "<group>"; };
+		5425E25020D1D72B00F69401 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		5431628B20C46210002A993D /* trueno */ = {isa = PBXFileReference; lastKnownFileType = folder; name = trueno; path = ../../../../Downloads/trueno; sourceTree = "<group>"; };
+		5434770C212BA30400D3F9F7 /* AddAttemptsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAttemptsViewController.swift; sourceTree = "<group>"; };
+		5434770E212BA5AF00D3F9F7 /* StationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationCollectionViewCell.swift; sourceTree = "<group>"; };
+		5445FEBA20E1A19D0032F913 /* InfoStationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoStationsVC.swift; sourceTree = "<group>"; };
+		5466326920F1BB10009A7848 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5466326B20F24BBE009A7848 /* OverallScoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverallScoreTableViewCell.swift; sourceTree = "<group>"; };
+		5466327720F42CF5009A7848 /* AttemptVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttemptVC.swift; sourceTree = "<group>"; };
+		5466327920F43382009A7848 /* attemptCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = attemptCell.swift; sourceTree = "<group>"; };
+		5466327B20F435FE009A7848 /* overallAttemptCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = overallAttemptCell.swift; sourceTree = "<group>"; };
+		5466327D20F57AB9009A7848 /* Attempt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attempt.swift; sourceTree = "<group>"; };
+		5466327F20F5C82B009A7848 /* profileAttemptCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileAttemptCell.swift; sourceTree = "<group>"; };
 		546B79362092DD0600AC0E7C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		546B79382092EE9D00AC0E7C /* DescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionTableViewCell.swift; sourceTree = "<group>"; };
-		546B793A2093EBF600AC0E7C /* Roboto */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Roboto; path = ../../../../Downloads/Roboto; sourceTree = "<group>"; };
-		54A5443720A38A57009C6928 /* PasswordResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PasswordResetViewController.swift; path = "/Users/williamuchegbu/Documents/GitHub/NYU-Fitness-Challenge/NYU Fitness Challenge/Onboarding/PasswordResetViewController.swift"; sourceTree = "<absolute>"; };
-		75A44C78208EE27900B81F1F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		75D81400209146BA005162E8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		546F280620F7F0A20037DB2C /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		546F280820F7F4690037DB2C /* ScoringFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoringFunctions.swift; sourceTree = "<group>"; };
+		546F280E20F8786C0037DB2C /* NYU Fitness Challenge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "NYU Fitness Challenge.entitlements"; sourceTree = "<group>"; };
+		546F280F20F8786C0037DB2C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		546F281120F87EFF0037DB2C /* challengeVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = challengeVideo.mp4; sourceTree = "<group>"; };
+		547A59E420DB0C3200376076 /* ProVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProVC.swift; sourceTree = "<group>"; };
+		547A59E620DB1D5D00376076 /* NUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NUser.swift; sourceTree = "<group>"; };
+		547A59E820DB2C3800376076 /* DictionaryRep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryRep.swift; sourceTree = "<group>"; };
+		548CD790211151DB00CA5998 /* Roboto */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Roboto; sourceTree = "<group>"; };
+		548CD7942112378200CA5998 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		548FFCEF20B907CC00BD0863 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LaunchViewController.swift; path = "NYU Fitness Challenge/LaunchViewController.swift"; sourceTree = SOURCE_ROOT; };
+		548FFCF920B98DD100BD0863 /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
+		54B17ABA20EDD8CD00B0F7EE /* EmailPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailPasswordVC.swift; sourceTree = "<group>"; };
+		54B17ABC20EDD93A00B0F7EE /* NameGenderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameGenderVC.swift; sourceTree = "<group>"; };
+		54B17ABE20EDD94F00B0F7EE /* ProfilePicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePicVC.swift; sourceTree = "<group>"; };
+		54CD9DCA20DB6C2E0095F387 /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
+		54CD9DCC20DBD7C00095F387 /* LeadersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadersVC.swift; sourceTree = "<group>"; };
+		54CD9DCE20DBDB490095F387 /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		54CD9DD020DBDCE90095F387 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		54CD9DD220DC6DA30095F387 /* LeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderTableViewCell.swift; sourceTree = "<group>"; };
+		54DA5196210FB815004D1531 /* burpees.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = burpees.mp4; sourceTree = "<group>"; };
+		54DA5199210FBA64004D1531 /* bike.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bike.mp4; sourceTree = "<group>"; };
+		54DA519A210FBA81004D1531 /* freethrow.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = freethrow.mp4; sourceTree = "<group>"; };
+		54DA519B210FBA8C004D1531 /* shuttle run.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shuttle run.mp4"; sourceTree = "<group>"; };
+		54DA519C210FBA94004D1531 /* rope machine.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "rope machine.mp4"; sourceTree = "<group>"; };
+		54DA519D210FBAA0004D1531 /* row machine.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "row machine.mp4"; sourceTree = "<group>"; };
+		54DA519E210FBAAB004D1531 /* squats.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = squats.mp4; sourceTree = "<group>"; };
+		54DA519F210FBAB3004D1531 /* pushups.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pushups.mp4; sourceTree = "<group>"; };
+		54DA51A0210FBABD004D1531 /* plank.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = plank.mp4; sourceTree = "<group>"; };
+		54DA51A9210FC60F004D1531 /* NYU Fitness Challenge-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NYU Fitness Challenge-Bridging-Header.h"; sourceTree = "<group>"; };
+		54ED74F821022F6800326880 /* GoogleAuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAuthVC.swift; sourceTree = "<group>"; };
+		54F2F17920C40CF3002FCBE5 /* montserrat */ = {isa = PBXFileReference; lastKnownFileType = folder; path = montserrat; sourceTree = "<group>"; };
+		54F8A47420DE86DB00CE0D53 /* RegVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegVC.swift; sourceTree = "<group>"; };
+		54F8A47620DEF8BC00CE0D53 /* StationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsVC.swift; sourceTree = "<group>"; };
+		54F8A47820DEFABE00CE0D53 /* StationDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailsVC.swift; sourceTree = "<group>"; };
+		54F8A47A20DEFEE300CE0D53 /* muscleGroupsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = muscleGroupsTableViewCell.swift; sourceTree = "<group>"; };
 		75EEB169208583690015CCE6 /* NYU Fitness Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NYU Fitness Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75EEB16C2085836A0015CCE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75EEB16E2085836A0015CCE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,7 +160,6 @@
 		75EEB18C2085836C0015CCE6 /* NYU_Fitness_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYU_Fitness_ChallengeUITests.swift; sourceTree = "<group>"; };
 		75EEB18E2085836C0015CCE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75EEB19A20858DDC0015CCE6 /* NYU_wordmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NYU_wordmark.png; sourceTree = "<group>"; };
-		75EEB19F208631320015CCE6 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		75EEB1A3208654590015CCE6 /* eventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventCell.swift; sourceTree = "<group>"; };
 		75EEB1A52086E2D10015CCE6 /* LeaderboardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardTableViewCell.swift; sourceTree = "<group>"; };
 		8407F4628A3D1A7B0BEEC393 /* Pods-NYU Fitness ChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYU Fitness ChallengeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NYU Fitness ChallengeUITests/Pods-NYU Fitness ChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -89,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C4E5955CCC89A51F00E850A /* Pods_NYU_Fitness_Challenge.framework in Frameworks */,
+				546F281020F8786C0037DB2C /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,19 +198,103 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5425E24F20D1D65900F69401 /* Old Files */ = {
+			isa = PBXGroup;
+			children = (
+				75EEB16E2085836A0015CCE6 /* ViewController.swift */,
+				546B79382092EE9D00AC0E7C /* DescriptionTableViewCell.swift */,
+				75EEB1A3208654590015CCE6 /* eventCell.swift */,
+				548FFCF920B98DD100BD0863 /* SideMenuTableViewController.swift */,
+				546B79362092DD0600AC0E7C /* HomeViewController.swift */,
+				75EEB1A52086E2D10015CCE6 /* LeaderboardTableViewCell.swift */,
+			);
+			path = "Old Files";
+			sourceTree = "<group>";
+		};
+		5445FEBC20E1E8BB0032F913 /* Stations */ = {
+			isa = PBXGroup;
+			children = (
+				54F8A47820DEFABE00CE0D53 /* StationDetailsVC.swift */,
+				54F8A47620DEF8BC00CE0D53 /* StationsVC.swift */,
+				5445FEBA20E1A19D0032F913 /* InfoStationsVC.swift */,
+				541A7FF120F0FFB6009905FC /* InstructionsTableViewCell.swift */,
+			);
+			path = Stations;
+			sourceTree = "<group>";
+		};
+		5466326820F1BADB009A7848 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				5466326920F1BB10009A7848 /* SettingsViewController.swift */,
+				5434770C212BA30400D3F9F7 /* AddAttemptsViewController.swift */,
+				5434770E212BA5AF00D3F9F7 /* StationCollectionViewCell.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		5466327620F42C23009A7848 /* Scoring */ = {
+			isa = PBXGroup;
+			children = (
+				5466326B20F24BBE009A7848 /* OverallScoreTableViewCell.swift */,
+				547A59E420DB0C3200376076 /* ProVC.swift */,
+				54CD9DCC20DBD7C00095F387 /* LeadersVC.swift */,
+				5466327720F42CF5009A7848 /* AttemptVC.swift */,
+				5466327920F43382009A7848 /* attemptCell.swift */,
+				5466327B20F435FE009A7848 /* overallAttemptCell.swift */,
+				5466327F20F5C82B009A7848 /* profileAttemptCell.swift */,
+			);
+			path = Scoring;
+			sourceTree = "<group>";
+		};
 		54A5443620A383BF009C6928 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				75D81400209146BA005162E8 /* LoginViewController.swift */,
-				54A5443720A38A57009C6928 /* PasswordResetViewController.swift */,
-				543EA01520A949BB00AE553D /* RegisterViewController.swift */,
+				54B17ABA20EDD8CD00B0F7EE /* EmailPasswordVC.swift */,
+				5425E25020D1D72B00F69401 /* LoginVC.swift */,
+				54B17ABC20EDD93A00B0F7EE /* NameGenderVC.swift */,
+				54B17ABE20EDD94F00B0F7EE /* ProfilePicVC.swift */,
+				54F8A47420DE86DB00CE0D53 /* RegVC.swift */,
+				54ED74F821022F6800326880 /* GoogleAuthVC.swift */,
 			);
 			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		54CD9DC920DB6BFC0095F387 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				547A59E620DB1D5D00376076 /* NUser.swift */,
+				547A59E820DB2C3800376076 /* DictionaryRep.swift */,
+				54CD9DCA20DB6C2E0095F387 /* Challenge.swift */,
+				54CD9DCE20DBDB490095F387 /* Events.swift */,
+				54CD9DD020DBDCE90095F387 /* Event.swift */,
+				54CD9DD220DC6DA30095F387 /* LeaderTableViewCell.swift */,
+				54F8A47A20DEFEE300CE0D53 /* muscleGroupsTableViewCell.swift */,
+				541A7FEF20F04C08009905FC /* TrainTableViewCell.swift */,
+				5466327D20F57AB9009A7848 /* Attempt.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		54DA5198210FBA13004D1531 /* Instruction Videos */ = {
+			isa = PBXGroup;
+			children = (
+				54DA5196210FB815004D1531 /* burpees.mp4 */,
+				54DA5199210FBA64004D1531 /* bike.mp4 */,
+				54DA519A210FBA81004D1531 /* freethrow.mp4 */,
+				54DA51A0210FBABD004D1531 /* plank.mp4 */,
+				54DA519F210FBAB3004D1531 /* pushups.mp4 */,
+				54DA519C210FBA94004D1531 /* rope machine.mp4 */,
+				54DA519D210FBAA0004D1531 /* row machine.mp4 */,
+				54DA519B210FBA8C004D1531 /* shuttle run.mp4 */,
+				54DA519E210FBAAB004D1531 /* squats.mp4 */,
+			);
+			path = "Instruction Videos";
 			sourceTree = "<group>";
 		};
 		702B698C2446EF81024C1641 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				546F280F20F8786C0037DB2C /* AudioToolbox.framework */,
 				DF168A1DDCCC2758CEC39C69 /* Pods_NYU_Fitness_Challenge.framework */,
 				10225BE6387D73F12352084F /* Pods_NYU_Fitness_ChallengeTests.framework */,
 				34D0FEC701C881E48A8E2632 /* Pods_NYU_Fitness_ChallengeUITests.framework */,
@@ -156,21 +327,29 @@
 		75EEB16B208583690015CCE6 /* NYU Fitness Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				546F280E20F8786C0037DB2C /* NYU Fitness Challenge.entitlements */,
+				546F281120F87EFF0037DB2C /* challengeVideo.mp4 */,
+				54DA5198210FBA13004D1531 /* Instruction Videos */,
+				54CD9DC920DB6BFC0095F387 /* Models */,
+				5425E24F20D1D65900F69401 /* Old Files */,
+				5466326820F1BADB009A7848 /* Settings */,
 				54A5443620A383BF009C6928 /* Onboarding */,
+				5445FEBC20E1E8BB0032F913 /* Stations */,
+				5466327620F42C23009A7848 /* Scoring */,
+				548FFCEF20B907CC00BD0863 /* LaunchViewController.swift */,
+				546F280820F7F4690037DB2C /* ScoringFunctions.swift */,
 				75EEB16C2085836A0015CCE6 /* AppDelegate.swift */,
-				75EEB16E2085836A0015CCE6 /* ViewController.swift */,
-				546B79382092EE9D00AC0E7C /* DescriptionTableViewCell.swift */,
-				75EEB1A3208654590015CCE6 /* eventCell.swift */,
-				75EEB19F208631320015CCE6 /* ProfileViewController.swift */,
+				546F280620F7F0A20037DB2C /* LoadingViewController.swift */,
+				75EEB1752085836C0015CCE6 /* LaunchScreen.storyboard */,
 				75EEB1702085836A0015CCE6 /* Main.storyboard */,
-				546B793A2093EBF600AC0E7C /* Roboto */,
-				546B79362092DD0600AC0E7C /* HomeViewController.swift */,
-				75EEB1A52086E2D10015CCE6 /* LeaderboardTableViewCell.swift */,
+				75EEB1782085836C0015CCE6 /* Info.plist */,
+				548CD7942112378200CA5998 /* GoogleService-Info.plist */,
 				75EEB19A20858DDC0015CCE6 /* NYU_wordmark.png */,
 				75EEB1732085836C0015CCE6 /* Assets.xcassets */,
-				75EEB1752085836C0015CCE6 /* LaunchScreen.storyboard */,
-				75A44C78208EE27900B81F1F /* GoogleService-Info.plist */,
-				75EEB1782085836C0015CCE6 /* Info.plist */,
+				54F2F17920C40CF3002FCBE5 /* montserrat */,
+				5431628B20C46210002A993D /* trueno */,
+				548CD790211151DB00CA5998 /* Roboto */,
+				54DA51A9210FC60F004D1531 /* NYU Fitness Challenge-Bridging-Header.h */,
 			);
 			path = "NYU Fitness Challenge";
 			sourceTree = "<group>";
@@ -218,6 +397,7 @@
 				75EEB166208583690015CCE6 /* Frameworks */,
 				75EEB167208583690015CCE6 /* Resources */,
 				F505B3E65B1B84156BE99361 /* [CP] Embed Pods Frameworks */,
+				158355396A030FEF88996092 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -279,6 +459,18 @@
 				TargetAttributes = {
 					75EEB168208583690015CCE6 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0940;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					75EEB17C2085836C0015CCE6 = {
 						CreatedOnToolsVersion = 9.3;
@@ -315,12 +507,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54DA51A8210FBB17004D1531 /* squats.mp4 in Resources */,
+				54DA51A7210FBB11004D1531 /* shuttle run.mp4 in Resources */,
+				54DA51A6210FBB0C004D1531 /* row machine.mp4 in Resources */,
+				54DA51A5210FBB04004D1531 /* rope machine.mp4 in Resources */,
+				54DA51A4210FBAFF004D1531 /* pushups.mp4 in Resources */,
+				54DA51A3210FBAFA004D1531 /* plank.mp4 in Resources */,
+				54DA51A2210FBAF6004D1531 /* freethrow.mp4 in Resources */,
+				54DA51A1210FBAEE004D1531 /* bike.mp4 in Resources */,
+				54DA5197210FB92F004D1531 /* burpees.mp4 in Resources */,
+				546F281220F87F000037DB2C /* challengeVideo.mp4 in Resources */,
 				75EEB1772085836C0015CCE6 /* LaunchScreen.storyboard in Resources */,
+				548CD7952112378200CA5998 /* GoogleService-Info.plist in Resources */,
 				75EEB19B20858DDC0015CCE6 /* NYU_wordmark.png in Resources */,
-				75A44C79208EE27900B81F1F /* GoogleService-Info.plist in Resources */,
+				54F2F17A20C40CF3002FCBE5 /* montserrat in Resources */,
+				548CD791211151DC00CA5998 /* Roboto in Resources */,
+				5431628C20C46210002A993D /* trueno in Resources */,
 				75EEB1742085836C0015CCE6 /* Assets.xcassets in Resources */,
 				75EEB1722085836A0015CCE6 /* Main.storyboard in Resources */,
-				546B793B2093EBF600AC0E7C /* Roboto in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +545,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		158355396A030FEF88996092 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NYU Fitness Challenge/Pods-NYU Fitness Challenge-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NYU Fitness Challenge/Pods-NYU Fitness Challenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		758B4B824BB04A165628B6A7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -424,17 +646,23 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-NYU Fitness Challenge/Pods-NYU Fitness Challenge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac-f0850809/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/HMSegmentedControl/HMSegmentedControl.framework",
 				"${BUILT_PRODUCTS_DIR}/RevealingSplashView/RevealingSplashView.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HMSegmentedControl.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealingSplashView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -450,16 +678,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54CD9DCB20DB6C2E0095F387 /* Challenge.swift in Sources */,
+				547A59E520DB0C3200376076 /* ProVC.swift in Sources */,
+				547A59E920DB2C3800376076 /* DictionaryRep.swift in Sources */,
+				546F280920F7F4690037DB2C /* ScoringFunctions.swift in Sources */,
 				546B79392092EE9D00AC0E7C /* DescriptionTableViewCell.swift in Sources */,
-				543EA01620A949BB00AE553D /* RegisterViewController.swift in Sources */,
-				54A5443820A38A58009C6928 /* PasswordResetViewController.swift in Sources */,
-				75D81401209146BA005162E8 /* LoginViewController.swift in Sources */,
+				54B17ABD20EDD93A00B0F7EE /* NameGenderVC.swift in Sources */,
+				54F8A47520DE86DB00CE0D53 /* RegVC.swift in Sources */,
 				75EEB1A4208654590015CCE6 /* eventCell.swift in Sources */,
+				546F280720F7F0A20037DB2C /* LoadingViewController.swift in Sources */,
+				5466327C20F435FE009A7848 /* overallAttemptCell.swift in Sources */,
+				54ED74F921022F6800326880 /* GoogleAuthVC.swift in Sources */,
 				75EEB1A62086E2D10015CCE6 /* LeaderboardTableViewCell.swift in Sources */,
+				5466327E20F57AB9009A7848 /* Attempt.swift in Sources */,
+				54B17ABB20EDD8CD00B0F7EE /* EmailPasswordVC.swift in Sources */,
+				5434770F212BA5AF00D3F9F7 /* StationCollectionViewCell.swift in Sources */,
+				5466328020F5C82B009A7848 /* profileAttemptCell.swift in Sources */,
+				54F8A47920DEFABE00CE0D53 /* StationDetailsVC.swift in Sources */,
+				5466327820F42CF5009A7848 /* AttemptVC.swift in Sources */,
+				54F8A47720DEF8BC00CE0D53 /* StationsVC.swift in Sources */,
 				75EEB16F2085836A0015CCE6 /* ViewController.swift in Sources */,
-				75EEB1A0208631320015CCE6 /* ProfileViewController.swift in Sources */,
+				541A7FF020F04C08009905FC /* TrainTableViewCell.swift in Sources */,
+				54CD9DD120DBDCE90095F387 /* Event.swift in Sources */,
+				547A59E720DB1D5D00376076 /* NUser.swift in Sources */,
+				5434770D212BA30400D3F9F7 /* AddAttemptsViewController.swift in Sources */,
+				548FFCF020B907CC00BD0863 /* LaunchViewController.swift in Sources */,
 				546B79372092DD0600AC0E7C /* HomeViewController.swift in Sources */,
 				75EEB16D2085836A0015CCE6 /* AppDelegate.swift in Sources */,
+				5445FEBB20E1A19D0032F913 /* InfoStationsVC.swift in Sources */,
+				548FFCFA20B98DD100BD0863 /* SideMenuTableViewController.swift in Sources */,
+				5466326C20F24BBE009A7848 /* OverallScoreTableViewCell.swift in Sources */,
+				54F8A47B20DEFEE300CE0D53 /* muscleGroupsTableViewCell.swift in Sources */,
+				54CD9DD320DC6DA30095F387 /* LeaderTableViewCell.swift in Sources */,
+				54B17ABF20EDD94F00B0F7EE /* ProfilePicVC.swift in Sources */,
+				5466326A20F1BB10009A7848 /* SettingsViewController.swift in Sources */,
+				5466327A20F43382009A7848 /* attemptCell.swift in Sources */,
+				54CD9DCF20DBDB490095F387 /* Events.swift in Sources */,
+				541A7FF220F0FFB6009905FC /* InstructionsTableViewCell.swift in Sources */,
+				5425E25120D1D72B00F69401 /* LoginVC.swift in Sources */,
+				54CD9DCD20DBD7C00095F387 /* LeadersVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -633,15 +890,19 @@
 			baseConfigurationReference = 0A6EDCD5609A0A0C253BCC6E /* Pods-NYU Fitness Challenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "NYU Fitness Challenge/NYU Fitness Challenge.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6343M8D847;
+				DEVELOPMENT_TEAM = RWQ6G7Y3HY;
 				INFOPLIST_FILE = "NYU Fitness Challenge/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "NYU.NYU-Fitness-Challenge";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FitnessChallenge.NYU;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NYU Fitness Challenge/NYU Fitness Challenge-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -652,15 +913,18 @@
 			baseConfigurationReference = 1FD0A3D3C0231C3AB5C40E6B /* Pods-NYU Fitness Challenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "NYU Fitness Challenge/NYU Fitness Challenge.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6343M8D847;
+				DEVELOPMENT_TEAM = RWQ6G7Y3HY;
 				INFOPLIST_FILE = "NYU Fitness Challenge/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "NYU.NYU-Fitness-Challenge";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FitnessChallenge.NYU;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NYU Fitness Challenge/NYU Fitness Challenge-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -7,9 +7,9 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>706151436086-1pgoebf6q5vqa2bbbgiuihh849cp8def.apps.googleusercontent.com</string>
+	<string>706151436086-j2pnb2ev9fomuvailjobcg7kqoc4s5ca.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.706151436086-1pgoebf6q5vqa2bbbgiuihh849cp8def</string>
+	<string>com.googleusercontent.apps.706151436086-j2pnb2ev9fomuvailjobcg7kqoc4s5ca</string>
 	<key>API_KEY</key>
 	<string>AIzaSyBnSI1UAec1AWlCvzkAj2H0OKZR4yw5LOI</string>
 	<key>GCM_SENDER_ID</key>
@@ -17,7 +17,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>NYU.NYU-Fitness-Challenge</string>
+	<string>com.FitnessChallenge.NYU</string>
 	<key>PROJECT_ID</key>
 	<string>fitnesschallenge-26de6</string>
 	<key>STORAGE_BUCKET</key>
@@ -33,7 +33,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:706151436086:ios:7b6526808f2dc9a4</string>
+	<string>1:706151436086:ios:7bb7f4c07d383d39</string>
 	<key>DATABASE_URL</key>
 	<string>https://fitnesschallenge-26de6.firebaseio.com</string>
 </dict>

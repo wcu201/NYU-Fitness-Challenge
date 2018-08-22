@@ -8,9 +8,14 @@ target 'NYU Fitness Challenge' do
   # Pods for NYU Fitness Challenge
 
   pod 'Firebase/Core'
+  pod 'Firebase/Storage'
   pod 'Firebase/Database'
   pod 'Firebase/Auth'
   pod 'RevealingSplashView'
+  pod 'SVProgressHUD', '~> 2.2'
+  pod 'GoogleSignIn'
+  pod 'HMSegmentedControl'
+  
   target 'NYU Fitness ChallengeTests' do
     inherit! :search_paths
     # Pods for testing

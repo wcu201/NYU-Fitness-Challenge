@@ -16,10 +16,58 @@
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.706151436086-1pgoebf6q5vqa2bbbgiuihh849cp8def</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>NYU.NYU-Fitness-Challenge</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>3</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Need Calendars</string>
+	<key>NSCameraUsageDescription</key>
+	<string>We need acces to your camera to take this picture</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Need Contacts</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Need Location</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Need Mic</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>We need access to your Photo Library to be abble to send this message</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Need Photo Usage</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>Need Reminders</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>montserrat/Montserrat-Bold.otf</string>
+		<string>montserrat/Montserrat-Black.otf</string>
+		<string>montserrat/Montserrat-Light.otf</string>
+		<string>montserrat/Montserrat-Medium.otf</string>
+		<string>trueno/TruenoRg.otf</string>
+		<string>trueno/Trueno-Light.otf</string>
+		<string>trueno/TruenoUltLt.otf</string>
+		<string>Roboto/Roboto-Bold.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -28,17 +76,13 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
-	</array>
-	<key>UIAppFonts</key>
-	<array>
-		<string>Roboto-Black.ttf</string>
-		<string>Roboto-BlackItalic.ttf</string>
-		<string>Roboto-Bold.ttf</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
@@ -47,5 +91,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<true/>
 </dict>
 </plist>

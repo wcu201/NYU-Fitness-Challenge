@@ -22,7 +22,7 @@
         <array key="Roboto-Bold.ttf">
             <string>Roboto-Bold</string>
         </array>
-        <array key="Trueno-Light.otf">
+        <array key="TruenoLt.otf">
             <string>TruenoLt</string>
         </array>
         <array key="TruenoRg.otf">
@@ -776,7 +776,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="nuP-eL-qTb">
-                                <rect key="frame" x="-3" y="410" width="378" height="216"/>
+                                <rect key="frame" x="-3" y="408" width="378" height="216"/>
                                 <date key="date" timeIntervalSinceReferenceDate="556476326.14024305">
                                     <!--2018-08-20 16:45:26 +0000-->
                                 </date>
@@ -804,13 +804,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stations Completed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QfU-eh-mbe">
-                                <rect key="frame" x="16" y="203" width="337.5" height="21"/>
+                                <rect key="frame" x="16" y="203" width="337.5" height="20"/>
                                 <fontDescription key="fontDescription" name="TruenoRg" family="Trueno" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date Of Attempt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WRS-C1-h1H">
-                                <rect key="frame" x="19" y="387" width="141" height="21"/>
+                                <rect key="frame" x="19" y="386" width="141" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="141" id="NBt-nW-dk6"/>
                                 </constraints>
@@ -819,7 +819,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="iT7-1E-UBY">
-                                <rect key="frame" x="19" y="232" width="337.5" height="120"/>
+                                <rect key="frame" x="19" y="231" width="337.5" height="120"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="qlb-nM-zF1"/>
@@ -1067,28 +1067,21 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Sy-GY-TGw">
-                                                    <rect key="frame" x="127" y="201" width="180" height="30"/>
+                                                    <rect key="frame" x="127" y="214" width="180" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="TruenoUltLt" family="Trueno" pointSize="20"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJd-7o-pvJ">
-                                                    <rect key="frame" x="127" y="163" width="180" height="30"/>
+                                                    <rect key="frame" x="127" y="174" width="180" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="TruenoUltLt" family="Trueno" pointSize="20"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x0D-Dt-g2D">
-                                                    <rect key="frame" x="127" y="49" width="180" height="30"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" name="TruenoUltLt" family="Trueno" pointSize="20"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="###" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bEi-4S-STZ">
-                                                    <rect key="frame" x="315" y="49" width="45" height="30"/>
+                                                    <rect key="frame" x="127" y="54" width="180" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="TruenoUltLt" family="Trueno" pointSize="20"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -1102,70 +1095,70 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ga6-UM-oQS">
-                                                    <rect key="frame" x="47" y="122" width="45" height="30"/>
+                                                    <rect key="frame" x="47" y="134" width="45" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="TruenoUltLt" family="Trueno" pointSize="20"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T8f-gQ-ku6">
-                                                    <rect key="frame" x="47" y="163" width="45" height="30"/>
+                                                    <rect key="frame" x="47" y="174" width="45" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="TruenoUltLt" family="Trueno" pointSize="20"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p6f-Ok-oQA">
-                                                    <rect key="frame" x="47" y="201" width="45" height="30"/>
+                                                    <rect key="frame" x="47" y="214" width="45" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="TruenoUltLt" family="Trueno" pointSize="20"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="###" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FJo-GP-TPj">
-                                                    <rect key="frame" x="315" y="87" width="45" height="30"/>
+                                                    <rect key="frame" x="315" y="94" width="45" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="TruenoUltLt" family="Trueno" pointSize="20"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="###" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5FQ-pl-gZ9">
-                                                    <rect key="frame" x="315" y="125" width="45" height="30"/>
+                                                    <rect key="frame" x="315" y="134" width="45" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="TruenoUltLt" family="Trueno" pointSize="20"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="###" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KHp-PT-99K">
-                                                    <rect key="frame" x="315" y="163" width="45" height="30"/>
+                                                    <rect key="frame" x="315" y="174" width="45" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="TruenoUltLt" family="Trueno" pointSize="20"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="###" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kVN-WR-hM8">
-                                                    <rect key="frame" x="315" y="201" width="45" height="30"/>
+                                                    <rect key="frame" x="315" y="214" width="45" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="TruenoUltLt" family="Trueno" pointSize="20"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rcv-ZM-LgZ">
-                                                    <rect key="frame" x="127" y="87" width="180" height="30"/>
+                                                    <rect key="frame" x="127" y="94" width="180" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="TruenoUltLt" family="Trueno" pointSize="20"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BKT-4E-GrT">
-                                                    <rect key="frame" x="127" y="125" width="180" height="30"/>
+                                                    <rect key="frame" x="127" y="134" width="180" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="TruenoUltLt" family="Trueno" pointSize="20"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wUy-XJ-NTR">
-                                                    <rect key="frame" x="47" y="87" width="45" height="30"/>
+                                                    <rect key="frame" x="47" y="94" width="45" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="TruenoUltLt" family="Trueno" pointSize="20"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -1180,6 +1173,13 @@
                                                     <rect key="frame" x="15" y="11" width="24" height="25"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="###" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bEi-4S-STZ">
+                                                    <rect key="frame" x="315" y="54" width="45" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="TruenoUltLt" family="Trueno" pointSize="20"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
@@ -1581,109 +1581,10 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="geh-70-3Mb">
                                 <rect key="frame" x="-1" y="64" width="376" height="787"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VVD-LT-hPu">
-                                        <rect key="frame" x="0.0" y="0.0" width="376" height="787"/>
-                                        <subviews>
-                                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="bwV-S6-3Of">
-                                                <rect key="frame" x="9.5" y="16" width="357" height="29"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="28" id="M7X-EL-Pv1"/>
-                                                </constraints>
-                                                <segments>
-                                                    <segment title="About"/>
-                                                    <segment title="Stations"/>
-                                                </segments>
-                                                <color key="tintColor" red="0.3411764706" green="0.023529411760000001" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <connections>
-                                                    <action selector="changeSegValue:" destination="NAj-16-Pxm" eventType="valueChanged" id="h0A-EK-SsJ"/>
-                                                </connections>
-                                            </segmentedControl>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h4n-NY-7fk">
-                                                <rect key="frame" x="-0.5" y="62" width="376" height="200"/>
-                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="200" id="kaU-SY-Dtw"/>
-                                                </constraints>
-                                            </view>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XlW-MA-u35">
-                                                <rect key="frame" x="27.5" y="277" width="320" height="100"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="100" id="m5f-eP-Y6p"/>
-                                                </constraints>
-                                                <string key="text">The year-long NYU Fitness challenge is here! Challenge your friends or challenge yourself for a chance to get in the best shape and win prizes! There are 10 stations and 3 winners. </string>
-                                                <fontDescription key="fontDescription" name="TruenoLt" family="Trueno" pointSize="15"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Challenge Dates" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R4X-7a-7vX">
-                                                <rect key="frame" x="27.5" y="375" width="320" height="37"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="37" id="2Ao-ga-Tvt"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="24"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="crM-Wy-cPi">
-                                                <rect key="frame" x="37.5" y="420" width="301" height="88"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="88" id="WG2-uu-Gqu"/>
-                                                </constraints>
-                                                <attributedString key="attributedText">
-                                                    <fragment>
-                                                        <string key="content">9/12/18                        6:30PM-9:30PM                                           9/13/18                        6:30PM-9:30PM 9/15/18                         1:30PM-4:30PM</string>
-                                                        <attributes>
-                                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            <font key="NSFont" size="15" name="TruenoLt"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="8" tighteningFactorForTruncation="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prizes" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5gf-L6-V67">
-                                                <rect key="frame" x="28.5" y="528" width="320" height="37"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="37" id="tF4-Uc-zj0"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="24"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZsL-1h-lv3">
-                                                <rect key="frame" x="0.0" y="589" width="376" height="190"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="190" id="zwY-X9-GQn"/>
-                                                </constraints>
-                                            </imageView>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstItem="bwV-S6-3Of" firstAttribute="centerX" secondItem="VVD-LT-hPu" secondAttribute="centerX" id="1kL-ae-T4f"/>
-                                            <constraint firstItem="5gf-L6-V67" firstAttribute="width" secondItem="VVD-LT-hPu" secondAttribute="width" multiplier="0.85" id="7Pf-TN-45I"/>
-                                            <constraint firstItem="ZsL-1h-lv3" firstAttribute="top" secondItem="5gf-L6-V67" secondAttribute="bottom" constant="24" id="CeS-OS-7O9"/>
-                                            <constraint firstItem="5gf-L6-V67" firstAttribute="top" secondItem="crM-Wy-cPi" secondAttribute="bottom" constant="20" id="GX0-Zi-TtX"/>
-                                            <constraint firstItem="crM-Wy-cPi" firstAttribute="centerX" secondItem="VVD-LT-hPu" secondAttribute="centerX" id="Lrf-SK-Fl7"/>
-                                            <constraint firstItem="XlW-MA-u35" firstAttribute="centerX" secondItem="VVD-LT-hPu" secondAttribute="centerX" id="R8O-tr-cho"/>
-                                            <constraint firstItem="h4n-NY-7fk" firstAttribute="width" secondItem="VVD-LT-hPu" secondAttribute="width" id="SIf-DD-HZl"/>
-                                            <constraint firstItem="R4X-7a-7vX" firstAttribute="width" secondItem="VVD-LT-hPu" secondAttribute="width" multiplier="0.85" id="SrN-qo-LxC"/>
-                                            <constraint firstItem="h4n-NY-7fk" firstAttribute="top" secondItem="bwV-S6-3Of" secondAttribute="bottom" constant="18" id="Ua5-y2-kcN"/>
-                                            <constraint firstItem="XlW-MA-u35" firstAttribute="top" secondItem="h4n-NY-7fk" secondAttribute="bottom" constant="15" id="WY2-VD-E0e"/>
-                                            <constraint firstItem="crM-Wy-cPi" firstAttribute="width" secondItem="VVD-LT-hPu" secondAttribute="width" multiplier="0.8" id="ZR7-6V-2ZA"/>
-                                            <constraint firstItem="bwV-S6-3Of" firstAttribute="width" secondItem="VVD-LT-hPu" secondAttribute="width" multiplier="0.95" id="Zdb-hu-4uQ"/>
-                                            <constraint firstItem="XlW-MA-u35" firstAttribute="width" secondItem="VVD-LT-hPu" secondAttribute="width" multiplier="0.85" id="eZb-s4-zj9"/>
-                                            <constraint firstItem="h4n-NY-7fk" firstAttribute="centerX" secondItem="VVD-LT-hPu" secondAttribute="centerX" id="fG9-E4-zek"/>
-                                            <constraint firstItem="ZsL-1h-lv3" firstAttribute="width" secondItem="VVD-LT-hPu" secondAttribute="width" id="fSK-o3-IDy"/>
-                                            <constraint firstItem="crM-Wy-cPi" firstAttribute="top" secondItem="R4X-7a-7vX" secondAttribute="bottom" constant="8" id="h1Z-tf-INY"/>
-                                            <constraint firstItem="5gf-L6-V67" firstAttribute="centerX" secondItem="VVD-LT-hPu" secondAttribute="centerX" id="mhH-et-gXj"/>
-                                            <constraint firstItem="ZsL-1h-lv3" firstAttribute="centerX" secondItem="VVD-LT-hPu" secondAttribute="centerX" id="oJt-Iq-Exk"/>
-                                            <constraint firstItem="R4X-7a-7vX" firstAttribute="centerX" secondItem="VVD-LT-hPu" secondAttribute="centerX" id="qkV-CA-GD7"/>
-                                            <constraint firstItem="R4X-7a-7vX" firstAttribute="top" secondItem="XlW-MA-u35" secondAttribute="bottom" constant="-2" id="rsZ-vE-u7f"/>
-                                            <constraint firstItem="bwV-S6-3Of" firstAttribute="top" secondItem="VVD-LT-hPu" secondAttribute="top" constant="16" id="tgm-dy-qrl"/>
-                                            <constraint firstAttribute="bottom" secondItem="ZsL-1h-lv3" secondAttribute="bottom" constant="8" id="vqA-E9-gOx"/>
-                                        </constraints>
-                                    </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Nc-oY-2kd">
                                         <rect key="frame" x="0.0" y="0.0" width="376" height="787"/>
                                         <subviews>
-                                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Bij-7c-evA">
+                                            <segmentedControl hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Bij-7c-evA">
                                                 <rect key="frame" x="9" y="16" width="357" height="29"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="28" id="bgV-5P-HLQ"/>
@@ -1697,14 +1598,13 @@
                                                     <action selector="stationsChangeSegValue:" destination="NAj-16-Pxm" eventType="valueChanged" id="iAt-QG-voA"/>
                                                 </connections>
                                             </segmentedControl>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o75-9A-AUj">
-                                                <rect key="frame" x="0.0" y="62" width="188" height="120"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o75-9A-AUj" customClass="stationButton" customModule="NYU_Fitness_Challenge" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="50" width="188" height="120"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="120" id="aK9-OT-CkS"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="TruenoLt" family="Trueno" pointSize="17"/>
-                                                <state key="normal" title="Burpees">
+                                                <state key="normal" title="Burpees" image="burpee">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -1716,14 +1616,13 @@
                                                     <action selector="burpees:" destination="NAj-16-Pxm" eventType="touchUpInside" id="DiD-t3-hvg"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R4o-n6-cqW">
-                                                <rect key="frame" x="0.0" y="182" width="188" height="120"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R4o-n6-cqW" customClass="stationButton" customModule="NYU_Fitness_Challenge" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="170" width="188" height="120"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="120" id="StS-Ow-Tdy"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="TruenoLt" family="Trueno" pointSize="17"/>
-                                                <state key="normal" title="Fitness Test">
+                                                <state key="normal" title="Fitness Test" image="test">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -1735,14 +1634,13 @@
                                                     <action selector="fitnessTest:" destination="NAj-16-Pxm" eventType="touchUpInside" id="1qZ-Hv-PAV"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eYD-Gy-s3G">
-                                                <rect key="frame" x="187.5" y="302" width="188" height="120"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eYD-Gy-s3G" customClass="stationButton" customModule="NYU_Fitness_Challenge" customModuleProvider="target">
+                                                <rect key="frame" x="188" y="290" width="188" height="120"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="120" id="fcp-vS-pPb"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="TruenoLt" family="Trueno" pointSize="17"/>
-                                                <state key="normal" title="Push Ups">
+                                                <state key="normal" title="Push Ups" image="pushup">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -1754,14 +1652,13 @@
                                                     <action selector="pushups:" destination="NAj-16-Pxm" eventType="touchUpInside" id="TUe-o6-cpk"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sEw-zO-BBb">
-                                                <rect key="frame" x="187.5" y="422" width="188" height="120"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sEw-zO-BBb" customClass="stationButton" customModule="NYU_Fitness_Challenge" customModuleProvider="target">
+                                                <rect key="frame" x="188" y="410" width="188" height="120"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="120" id="llh-kx-FXL"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="TruenoLt" family="Trueno" pointSize="17"/>
-                                                <state key="normal" title="Rowing">
+                                                <state key="normal" title="Rowing" image="row">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -1773,14 +1670,13 @@
                                                     <action selector="rowing:" destination="NAj-16-Pxm" eventType="touchUpInside" id="pY7-7c-gNX"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Voz-al-0ap">
-                                                <rect key="frame" x="0.0" y="422" width="188" height="120"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Voz-al-0ap" customClass="stationButton" customModule="NYU_Fitness_Challenge" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="410" width="188" height="120"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="120" id="QtR-aR-TN1"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="TruenoLt" family="Trueno" pointSize="17"/>
-                                                <state key="normal" title="Rope Pull">
+                                                <state key="normal" title="Rope Pull" image="rope">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -1792,14 +1688,13 @@
                                                     <action selector="ropepull:" destination="NAj-16-Pxm" eventType="touchUpInside" id="6uN-2G-Hts"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eHY-wI-N2a">
-                                                <rect key="frame" x="187.5" y="542" width="188" height="120"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eHY-wI-N2a" customClass="stationButton" customModule="NYU_Fitness_Challenge" customModuleProvider="target">
+                                                <rect key="frame" x="188" y="530" width="188" height="120"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="120" id="UAG-rN-Zlj"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="TruenoLt" family="Trueno" pointSize="17"/>
-                                                <state key="normal" title="Squats">
+                                                <state key="normal" title="Squats" image="squat">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -1811,15 +1706,15 @@
                                                     <action selector="squats:" destination="NAj-16-Pxm" eventType="touchUpInside" id="nMw-Od-cjs"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pO5-1e-c63">
-                                                <rect key="frame" x="188.5" y="182" width="188" height="120"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pO5-1e-c63" customClass="stationButton" customModule="NYU_Fitness_Challenge" customModuleProvider="target">
+                                                <rect key="frame" x="188.5" y="170" width="188" height="120"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="120" id="vce-Fj-xrg"/>
                                                 </constraints>
                                                 <inset key="contentEdgeInsets" minX="0.0" minY="50" maxX="40" maxY="0.0"/>
                                                 <inset key="imageEdgeInsets" minX="70" minY="-95" maxX="0.0" maxY="0.0"/>
-                                                <state key="normal" title="Freethrow" image="basketball">
+                                                <state key="normal" title="Freethrow" image="free throw">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -1831,14 +1726,13 @@
                                                     <action selector="freethrow:" destination="NAj-16-Pxm" eventType="touchUpInside" id="Jaj-kW-Oq7"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3S7-zQ-34Y">
-                                                <rect key="frame" x="0.0" y="302" width="188" height="120"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3S7-zQ-34Y" customClass="stationButton" customModule="NYU_Fitness_Challenge" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="290" width="188" height="120"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="120" id="cSc-wj-Tjw"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="TruenoLt" family="Trueno" pointSize="17"/>
-                                                <state key="normal" title="Plank">
+                                                <state key="normal" title="Plank" image="plank">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -1850,14 +1744,13 @@
                                                     <action selector="plank:" destination="NAj-16-Pxm" eventType="touchUpInside" id="CSi-in-gIa"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fX9-Yw-I3j">
-                                                <rect key="frame" x="0.0" y="542" width="188" height="120"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fX9-Yw-I3j" customClass="stationButton" customModule="NYU_Fitness_Challenge" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="530" width="188" height="120"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="120" id="p5q-wK-dne"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="TruenoLt" family="Trueno" pointSize="17"/>
-                                                <state key="normal" title="Shuttle Run">
+                                                <state key="normal" title="Shuttle Run" image="shuttle">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -1869,14 +1762,13 @@
                                                     <action selector="shuttlerun:" destination="NAj-16-Pxm" eventType="touchUpInside" id="KYT-D9-REe"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bfJ-fU-Lbw">
-                                                <rect key="frame" x="188" y="62" width="188" height="120"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bfJ-fU-Lbw" customClass="stationButton" customModule="NYU_Fitness_Challenge" customModuleProvider="target">
+                                                <rect key="frame" x="188" y="50" width="188" height="120"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="120" id="Uvw-hk-lWN"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="TruenoLt" family="Trueno" pointSize="17"/>
-                                                <state key="normal" title="Bike">
+                                                <state key="normal" title="Bike" image="bike">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -1891,17 +1783,16 @@
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="fX9-Yw-I3j" secondAttribute="bottom" constant="137" id="1YJ-d4-NLe"/>
                                             <constraint firstItem="sEw-zO-BBb" firstAttribute="top" secondItem="eYD-Gy-s3G" secondAttribute="bottom" id="5lG-Ov-tt5"/>
                                             <constraint firstItem="Bij-7c-evA" firstAttribute="top" secondItem="VwL-e1-JBl" secondAttribute="top" constant="16" id="5mf-IF-l1h"/>
-                                            <constraint firstItem="VwL-e1-JBl" firstAttribute="bottom" secondItem="eHY-wI-N2a" secondAttribute="bottom" constant="125" id="AAp-Ak-RoO"/>
                                             <constraint firstItem="pO5-1e-c63" firstAttribute="top" secondItem="bfJ-fU-Lbw" secondAttribute="bottom" id="Bjd-4g-CwC"/>
-                                            <constraint firstItem="o75-9A-AUj" firstAttribute="top" secondItem="Bij-7c-evA" secondAttribute="bottom" constant="18" id="BrP-1R-h5Y"/>
                                             <constraint firstItem="VwL-e1-JBl" firstAttribute="trailing" secondItem="bfJ-fU-Lbw" secondAttribute="trailing" id="EHD-aF-xno"/>
                                             <constraint firstItem="VwL-e1-JBl" firstAttribute="trailing" secondItem="pO5-1e-c63" secondAttribute="trailing" id="ETa-Pp-60V"/>
                                             <constraint firstItem="Voz-al-0ap" firstAttribute="top" secondItem="3S7-zQ-34Y" secondAttribute="bottom" id="Ega-lf-mB5"/>
                                             <constraint firstItem="eHY-wI-N2a" firstAttribute="top" secondItem="sEw-zO-BBb" secondAttribute="bottom" id="Ejs-ZF-oa3"/>
                                             <constraint firstItem="3S7-zQ-34Y" firstAttribute="width" secondItem="7Nc-oY-2kd" secondAttribute="width" multiplier="0.5" id="GMu-lk-QXN"/>
-                                            <constraint firstItem="VwL-e1-JBl" firstAttribute="bottom" secondItem="fX9-Yw-I3j" secondAttribute="bottom" constant="125" id="Jwe-Qb-nFy"/>
+                                            <constraint firstItem="o75-9A-AUj" firstAttribute="top" secondItem="VwL-e1-JBl" secondAttribute="top" constant="50" id="KJ4-Y3-9EA"/>
                                             <constraint firstItem="R4o-n6-cqW" firstAttribute="width" secondItem="7Nc-oY-2kd" secondAttribute="width" multiplier="0.5" id="L0j-nH-PA0"/>
                                             <constraint firstItem="Voz-al-0ap" firstAttribute="leading" secondItem="VwL-e1-JBl" secondAttribute="leading" id="Lev-dU-b7O"/>
                                             <constraint firstItem="fX9-Yw-I3j" firstAttribute="width" secondItem="7Nc-oY-2kd" secondAttribute="width" multiplier="0.5" id="OoU-Kc-Fry"/>
@@ -1915,6 +1806,7 @@
                                             <constraint firstItem="o75-9A-AUj" firstAttribute="leading" secondItem="VwL-e1-JBl" secondAttribute="leading" id="Z1u-P3-D3A"/>
                                             <constraint firstItem="eYD-Gy-s3G" firstAttribute="width" secondItem="7Nc-oY-2kd" secondAttribute="width" multiplier="0.5" id="ab2-XW-NoF"/>
                                             <constraint firstItem="bfJ-fU-Lbw" firstAttribute="width" secondItem="7Nc-oY-2kd" secondAttribute="width" multiplier="0.5" id="anV-yX-q07"/>
+                                            <constraint firstAttribute="bottom" secondItem="eHY-wI-N2a" secondAttribute="bottom" constant="137" id="car-cj-AqY"/>
                                             <constraint firstItem="eHY-wI-N2a" firstAttribute="width" secondItem="7Nc-oY-2kd" secondAttribute="width" multiplier="0.5" id="e1t-UR-EpT"/>
                                             <constraint firstItem="VwL-e1-JBl" firstAttribute="trailing" secondItem="sEw-zO-BBb" secondAttribute="trailing" id="f9P-8N-X2m"/>
                                             <constraint firstItem="Bij-7c-evA" firstAttribute="width" secondItem="7Nc-oY-2kd" secondAttribute="width" multiplier="0.95" id="fUs-0N-RdE"/>
@@ -1923,11 +1815,145 @@
                                             <constraint firstItem="VwL-e1-JBl" firstAttribute="trailing" secondItem="eYD-Gy-s3G" secondAttribute="trailing" id="m2r-PM-otD"/>
                                             <constraint firstItem="VwL-e1-JBl" firstAttribute="trailing" secondItem="eHY-wI-N2a" secondAttribute="trailing" id="q6B-AG-YDX"/>
                                             <constraint firstItem="Bij-7c-evA" firstAttribute="centerX" secondItem="VwL-e1-JBl" secondAttribute="centerX" id="rBw-q8-SMw"/>
+                                            <constraint firstItem="bfJ-fU-Lbw" firstAttribute="top" secondItem="VwL-e1-JBl" secondAttribute="top" constant="50" id="rEu-F4-H51"/>
                                             <constraint firstItem="eYD-Gy-s3G" firstAttribute="top" secondItem="pO5-1e-c63" secondAttribute="bottom" id="tFV-9X-yBJ"/>
                                             <constraint firstItem="fX9-Yw-I3j" firstAttribute="top" secondItem="Voz-al-0ap" secondAttribute="bottom" id="uW8-uH-FOd"/>
-                                            <constraint firstItem="bfJ-fU-Lbw" firstAttribute="top" secondItem="Bij-7c-evA" secondAttribute="bottom" constant="18" id="zwm-1F-3oI"/>
                                         </constraints>
                                         <viewLayoutGuide key="safeArea" id="VwL-e1-JBl"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VVD-LT-hPu">
+                                        <rect key="frame" x="0.0" y="50" width="376" height="737"/>
+                                        <subviews>
+                                            <segmentedControl hidden="YES" opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="bwV-S6-3Of">
+                                                <rect key="frame" x="9.5" y="16" width="357" height="29"/>
+                                                <segments>
+                                                    <segment title="About"/>
+                                                    <segment title="Stations"/>
+                                                </segments>
+                                                <color key="tintColor" red="0.3411764706" green="0.023529411760000001" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <action selector="changeSegValue:" destination="NAj-16-Pxm" eventType="valueChanged" id="h0A-EK-SsJ"/>
+                                                </connections>
+                                            </segmentedControl>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h4n-NY-7fk">
+                                                <rect key="frame" x="-0.5" y="0.0" width="376" height="200"/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="kaU-SY-Dtw"/>
+                                                </constraints>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XlW-MA-u35">
+                                                <rect key="frame" x="27.5" y="215" width="320" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="m5f-eP-Y6p"/>
+                                                </constraints>
+                                                <string key="text">The year-long NYU Fitness challenge is here! Challenge your friends or challenge yourself for a chance to get in the best shape and win prizes! There are 10 stations and 3 winners. </string>
+                                                <fontDescription key="fontDescription" name="TruenoLt" family="Trueno" pointSize="15"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Challenge Dates" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R4X-7a-7vX">
+                                                <rect key="frame" x="27.5" y="313" width="320" height="37"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="37" id="2Ao-ga-Tvt"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="24"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g1F-Ib-bW6">
+                                                <rect key="frame" x="27" y="394" width="151" height="21"/>
+                                                <fontDescription key="fontDescription" name="TruenoRg" family="Trueno" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prizes" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5gf-L6-V67">
+                                                <rect key="frame" x="28.5" y="478" width="320" height="37"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="37" id="tF4-Uc-zj0"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="24"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZsL-1h-lv3">
+                                                <rect key="frame" x="0.0" y="539" width="376" height="190"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="190" id="zwY-X9-GQn"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vdo-w9-zmi">
+                                                <rect key="frame" x="27.5" y="365" width="150.5" height="21"/>
+                                                <fontDescription key="fontDescription" name="TruenoRg" family="Trueno" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eo6-BI-YOw">
+                                                <rect key="frame" x="182" y="365" width="186" height="21"/>
+                                                <fontDescription key="fontDescription" name="TruenoRg" family="Trueno" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RJg-lj-X2q">
+                                                <rect key="frame" x="182" y="394" width="186" height="21"/>
+                                                <fontDescription key="fontDescription" name="TruenoRg" family="Trueno" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time 3" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yh8-dQ-OqR">
+                                                <rect key="frame" x="182" y="423" width="186" height="21"/>
+                                                <fontDescription key="fontDescription" name="TruenoRg" family="Trueno" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date 3" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8aa-uJ-C9s">
+                                                <rect key="frame" x="27" y="423" width="151" height="21"/>
+                                                <fontDescription key="fontDescription" name="TruenoRg" family="Trueno" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="g1F-Ib-bW6" firstAttribute="width" secondItem="Vdo-w9-zmi" secondAttribute="width" id="0yp-Ao-szi"/>
+                                            <constraint firstItem="g1F-Ib-bW6" firstAttribute="top" secondItem="Vdo-w9-zmi" secondAttribute="bottom" constant="8" id="4wa-Mj-aOu"/>
+                                            <constraint firstAttribute="trailing" secondItem="Yh8-dQ-OqR" secondAttribute="trailing" constant="8" id="6id-hh-lHQ"/>
+                                            <constraint firstItem="g1F-Ib-bW6" firstAttribute="leading" secondItem="Vdo-w9-zmi" secondAttribute="leading" id="7CK-Ur-WkK"/>
+                                            <constraint firstItem="5gf-L6-V67" firstAttribute="width" secondItem="VVD-LT-hPu" secondAttribute="width" multiplier="0.85" id="7Pf-TN-45I"/>
+                                            <constraint firstItem="RJg-lj-X2q" firstAttribute="leading" secondItem="g1F-Ib-bW6" secondAttribute="trailing" constant="4" id="947-ac-mGg"/>
+                                            <constraint firstAttribute="trailing" secondItem="RJg-lj-X2q" secondAttribute="trailing" constant="8" id="Bhv-g6-qx6"/>
+                                            <constraint firstItem="ZsL-1h-lv3" firstAttribute="top" secondItem="5gf-L6-V67" secondAttribute="bottom" constant="24" id="CeS-OS-7O9"/>
+                                            <constraint firstItem="Eo6-BI-YOw" firstAttribute="leading" secondItem="Vdo-w9-zmi" secondAttribute="trailing" constant="4" id="Fpq-xQ-wog"/>
+                                            <constraint firstItem="RJg-lj-X2q" firstAttribute="baseline" secondItem="g1F-Ib-bW6" secondAttribute="baseline" id="G6V-1B-YKR"/>
+                                            <constraint firstItem="Vdo-w9-zmi" firstAttribute="top" secondItem="R4X-7a-7vX" secondAttribute="bottom" constant="15" id="LaP-kK-hMr"/>
+                                            <constraint firstItem="Yh8-dQ-OqR" firstAttribute="leading" secondItem="8aa-uJ-C9s" secondAttribute="trailing" constant="4" id="Lfx-eM-yiZ"/>
+                                            <constraint firstItem="8aa-uJ-C9s" firstAttribute="top" secondItem="g1F-Ib-bW6" secondAttribute="bottom" constant="8" id="Piv-iN-8nB"/>
+                                            <constraint firstItem="XlW-MA-u35" firstAttribute="centerX" secondItem="VVD-LT-hPu" secondAttribute="centerX" id="R8O-tr-cho"/>
+                                            <constraint firstItem="h4n-NY-7fk" firstAttribute="width" secondItem="VVD-LT-hPu" secondAttribute="width" id="SIf-DD-HZl"/>
+                                            <constraint firstItem="R4X-7a-7vX" firstAttribute="width" secondItem="VVD-LT-hPu" secondAttribute="width" multiplier="0.85" id="SrN-qo-LxC"/>
+                                            <constraint firstItem="8aa-uJ-C9s" firstAttribute="width" secondItem="g1F-Ib-bW6" secondAttribute="width" id="TQb-JX-0W1"/>
+                                            <constraint firstItem="h4n-NY-7fk" firstAttribute="top" secondItem="bwV-S6-3Of" secondAttribute="bottom" constant="18" id="Ua5-y2-kcN"/>
+                                            <constraint firstItem="XlW-MA-u35" firstAttribute="top" secondItem="h4n-NY-7fk" secondAttribute="bottom" constant="15" id="WY2-VD-E0e"/>
+                                            <constraint firstItem="Vdo-w9-zmi" firstAttribute="width" secondItem="VVD-LT-hPu" secondAttribute="width" multiplier="0.4" id="Zz8-w2-ivU"/>
+                                            <constraint firstItem="h4n-NY-7fk" firstAttribute="top" secondItem="VVD-LT-hPu" secondAttribute="top" id="b8I-LI-7IU"/>
+                                            <constraint firstItem="8aa-uJ-C9s" firstAttribute="leading" secondItem="g1F-Ib-bW6" secondAttribute="leading" id="dVy-xz-vvT"/>
+                                            <constraint firstItem="XlW-MA-u35" firstAttribute="width" secondItem="VVD-LT-hPu" secondAttribute="width" multiplier="0.85" id="eZb-s4-zj9"/>
+                                            <constraint firstItem="h4n-NY-7fk" firstAttribute="centerX" secondItem="VVD-LT-hPu" secondAttribute="centerX" id="fG9-E4-zek"/>
+                                            <constraint firstItem="ZsL-1h-lv3" firstAttribute="width" secondItem="VVD-LT-hPu" secondAttribute="width" id="fSK-o3-IDy"/>
+                                            <constraint firstItem="Vdo-w9-zmi" firstAttribute="leading" secondItem="R4X-7a-7vX" secondAttribute="leading" id="fSl-uS-Yrb"/>
+                                            <constraint firstItem="Yh8-dQ-OqR" firstAttribute="baseline" secondItem="8aa-uJ-C9s" secondAttribute="baseline" id="igJ-CF-iBB"/>
+                                            <constraint firstItem="Eo6-BI-YOw" firstAttribute="baseline" secondItem="Vdo-w9-zmi" secondAttribute="baseline" id="ik1-w9-6ub"/>
+                                            <constraint firstItem="5gf-L6-V67" firstAttribute="centerX" secondItem="VVD-LT-hPu" secondAttribute="centerX" id="mhH-et-gXj"/>
+                                            <constraint firstItem="ZsL-1h-lv3" firstAttribute="centerX" secondItem="VVD-LT-hPu" secondAttribute="centerX" id="oJt-Iq-Exk"/>
+                                            <constraint firstItem="R4X-7a-7vX" firstAttribute="centerX" secondItem="VVD-LT-hPu" secondAttribute="centerX" id="qkV-CA-GD7"/>
+                                            <constraint firstItem="R4X-7a-7vX" firstAttribute="top" secondItem="XlW-MA-u35" secondAttribute="bottom" constant="-2" id="rsZ-vE-u7f"/>
+                                            <constraint firstAttribute="trailing" secondItem="Eo6-BI-YOw" secondAttribute="trailing" constant="8" id="tga-FL-24f"/>
+                                            <constraint firstItem="bwV-S6-3Of" firstAttribute="top" secondItem="VVD-LT-hPu" secondAttribute="top" constant="16" id="tgm-dy-qrl"/>
+                                            <constraint firstAttribute="bottom" secondItem="ZsL-1h-lv3" secondAttribute="bottom" constant="8" id="vqA-E9-gOx"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="Ua5-y2-kcN"/>
+                                                <exclude reference="tgm-dy-qrl"/>
+                                            </mask>
+                                        </variation>
                                     </view>
                                 </subviews>
                                 <constraints>
@@ -1936,7 +1962,7 @@
                                     <constraint firstItem="VVD-LT-hPu" firstAttribute="leading" secondItem="geh-70-3Mb" secondAttribute="leading" id="JTk-L8-gBc"/>
                                     <constraint firstItem="7Nc-oY-2kd" firstAttribute="top" secondItem="geh-70-3Mb" secondAttribute="top" id="LN7-4o-9nO"/>
                                     <constraint firstAttribute="trailing" secondItem="VVD-LT-hPu" secondAttribute="trailing" id="NSZ-uC-OCY"/>
-                                    <constraint firstItem="VVD-LT-hPu" firstAttribute="top" secondItem="geh-70-3Mb" secondAttribute="top" id="Tci-Ef-3bE"/>
+                                    <constraint firstItem="VVD-LT-hPu" firstAttribute="top" secondItem="7Nc-oY-2kd" secondAttribute="top" constant="50" id="Tci-Ef-3bE"/>
                                     <constraint firstItem="7Nc-oY-2kd" firstAttribute="width" secondItem="geh-70-3Mb" secondAttribute="width" id="czl-dE-E2d"/>
                                     <constraint firstItem="VVD-LT-hPu" firstAttribute="width" secondItem="geh-70-3Mb" secondAttribute="width" id="jI7-yK-Lnv"/>
                                     <constraint firstAttribute="bottom" secondItem="7Nc-oY-2kd" secondAttribute="bottom" id="qvx-pP-5xI"/>
@@ -2711,11 +2737,21 @@
         <image name="baseline_keyboard_arrow_right_black_18pt" width="18" height="18"/>
         <image name="basketball" width="64" height="64"/>
         <image name="beautiful-color-gradients-backgrounds-028-plum-plate" width="600" height="500"/>
+        <image name="bike" width="104" height="53"/>
+        <image name="burpee" width="60" height="75"/>
         <image name="challengeGradient" width="500" height="500"/>
+        <image name="free throw" width="64" height="65"/>
         <image name="gym" width="2048" height="1365"/>
         <image name="leaderboard" width="32" height="32"/>
         <image name="pencilIcon" width="8680" height="8200"/>
+        <image name="plank" width="140" height="43"/>
         <image name="profile" width="32" height="32"/>
+        <image name="pushup" width="119" height="46"/>
+        <image name="rope" width="50" height="89"/>
+        <image name="row" width="64" height="79"/>
+        <image name="shuttle" width="65" height="74"/>
+        <image name="squat" width="64" height="81"/>
+        <image name="test" width="47" height="63"/>
         <image name="treadmills" width="824" height="435"/>
         <image name="trophy" width="32" height="32"/>
     </resources>

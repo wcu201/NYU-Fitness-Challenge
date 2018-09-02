@@ -129,11 +129,19 @@ class LeadersVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
             return cell
         }
         
-        if (indexPath.row == 1 || indexPath.row == 4 || indexPath.row == 5) && imagesAdjusted ==  false{
+        //(15.0, 18.0, 24.0, 12.5)
+        
+        /*if (indexPath.row == 1 || indexPath.row == 4 || indexPath.row == 5) && imagesAdjusted ==  false{
             cell.challengeIcon.frame = CGRect(x: cell.challengeIcon.frame.minX, y: cell.challengeIcon.frame.maxY/2, width: cell.challengeIcon.frame.width, height: cell.challengeIcon.frame.height/2)
+            
             if indexPath.row == 5 {
                 imagesAdjusted = true
             }
+        }*/
+        
+        if (indexPath.row == 1 || indexPath.row == 4 || indexPath.row == 5) {
+            print ("Altered cells: ", cell.name.text)
+            cell.challengeIcon.frame = CGRect(x: 15.0, y: 18.0, width: 24.0, height: 12.5)
         }
         cell.challengeIcon.image = icon 
         return cell
@@ -350,11 +358,11 @@ class LeadersVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         newSegmentedController = HMSegmentedControl(frame: CGRect(x: 0, y: 85, width: self.view.frame.width, height: 50))
         newSegmentedController.selectionStyle = .fullWidthStripe
         newSegmentedController.selectionIndicatorColor = UIColor(red: 87/255, green: 6/255, blue: 140/255, alpha: 1.0)
-        let attrs = [
+        //let attrs = [
             //NSAttributedStringKey.foregroundColor: UIColor.red,
-            NSAttributedStringKey.font: UIFont(name: "TruenoLt", size: 17)!
-        ]
-        newSegmentedController.titleTextAttributes = attrs
+            //NSAttributedStringKey.font: UIFont(name: "TruenoLt", size: 17)!
+        //]
+        //newSegmentedController.titleTextAttributes = attrs
         newSegmentedController.sectionTitles = ["Overall", "Men", "Women"]
         newSegmentedController.addTarget(self, action: #selector(segmentChanges), for: .valueChanged)
         self.view.addSubview(newSegmentedController)

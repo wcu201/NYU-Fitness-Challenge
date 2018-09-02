@@ -106,7 +106,7 @@ class ProVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UINav
         }
         
         pickerView.delegate = self
-        checkPermission()
+        //checkPermission()
         
         // Do any additional setup after loading the view.
     }

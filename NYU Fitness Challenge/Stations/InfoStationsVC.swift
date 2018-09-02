@@ -8,8 +8,10 @@
 
 import UIKit
 import AVKit
+import HMSegmentedControl
 
 class InfoStationsVC: UIViewController {
+    var newSegmentedController: HMSegmentedControl!
     @IBOutlet weak var segmentedControl: UISegmentedControl!
     @IBOutlet weak var stationsSegmentedControl: UISegmentedControl!
     
@@ -35,6 +37,8 @@ class InfoStationsVC: UIViewController {
         catch{}
         
         addVideo(videoURL:"/Users/williamuchegbu/Documents/GitHub/NYU-Fitness-Challenge/NYU Fitness Challenge/Videos/Brooklyn Athletic Facility Mannequin Challenge.mp4")
+        addSegmentedController()
+        addSgmentedControllerConstraints()
         // Do any additional setup after loading the view.
     }
 
@@ -128,6 +132,48 @@ class InfoStationsVC: UIViewController {
     
     func openDetails(){
         performSegue(withIdentifier: "toDescription", sender: self)
+    }
+    
+    //adds new segmented controller to view
+    func addSegmentedController(){
+        newSegmentedController = HMSegmentedControl(frame: CGRect(x: 0, y: 85, width: self.view.frame.width, height: 50))
+        newSegmentedController.selectionStyle = .fullWidthStripe
+        newSegmentedController.selectionIndicatorColor = UIColor(red: 87/255, green: 6/255, blue: 140/255, alpha: 1.0)
+        
+        newSegmentedController.borderType = .bottom
+        newSegmentedController.borderWidth = 5
+        newSegmentedController.borderColor = UIColor(red: 87/255, green: 6/255, blue: 140/255, alpha: 1.0)
+        
+        //let attrs = [
+        //NSAttributedStringKey.foregroundColor: UIColor.red,
+        //NSAttributedStringKey.font: UIFont(name: "TruenoLt", size: 17)!
+        //]
+        //newSegmentedController.titleTextAttributes = attrs
+        newSegmentedController.sectionTitles = ["About", "Stations"]
+        newSegmentedController.addTarget(self, action: #selector(segmentChanges), for: .valueChanged)
+        self.bottomView.addSubview(newSegmentedController)
+    }
+    
+    //adds contraints to the new segemented controller
+    func addSgmentedControllerConstraints() {
+        newSegmentedController.translatesAutoresizingMaskIntoConstraints = false
+        
+        let xAnchor = NSLayoutConstraint(item: newSegmentedController, attribute: .centerX, relatedBy: .equal, toItem: self.view, attribute: .centerX, multiplier: 1, constant: 0)
+        let yAnchor = NSLayoutConstraint(item: newSegmentedController, attribute: .top, relatedBy: .equal, toItem: self.view.safeAreaLayoutGuide, attribute: .top, multiplier: 1, constant: 0)
+        let widthAnchor = NSLayoutConstraint(item: newSegmentedController, attribute: .width, relatedBy: .equal, toItem: self.view, attribute: .width, multiplier: 1, constant: 0)
+        let heightAnchor = NSLayoutConstraint(item: newSegmentedController, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: newSegmentedController.frame.height)
+        
+        self.view.addConstraints([xAnchor, yAnchor, widthAnchor, heightAnchor])
+    }
+    
+    @objc func segmentChanges() {
+        if newSegmentedController.selectedSegmentIndex == 1 {
+            topView.isHidden = true
+        }
+        else {
+            topView.isHidden = false
+        }
+        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
